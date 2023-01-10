@@ -1,0 +1,48 @@
+.container {
+  background-color: #ebf0e4;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.innerContainer {
+  display: flex;
+  padding-top: 4rem;
+  align-items: center;
+  padding-bottom: 0;
+  justify-content: center;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  color: #4d4d4d;
+  margin: 1.5rem 0;
+}
+
+.columnLeft {
+  position: relative;
+  z-index: 0;
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.columnRight {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.leafLeft {
+  z-index: 5;
+  width: 22rem;
+  margin-bottom: -12rem;
+}
+
+.leafRight {
+  width: 28rem;
+  align-self: flex-end;
+}
+
+.cookImg {
+  width: 100%;
+}

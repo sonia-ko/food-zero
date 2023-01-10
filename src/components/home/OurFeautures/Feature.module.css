@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.icon {
+  width: 16rem;
+  height: 16rem;
+}
+
+.heading {
+  font-family: 'Rufina', serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #000000;
+  margin: 1.5rem 0;
+}
+
+.text {
+  color: #4d4d4d;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.white {
+  width: 17.8rem;
+  height: 5.5rem;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #ffffff;
+  font-family: 'Rufina', serif;
+  font-size: 2rem;
+}

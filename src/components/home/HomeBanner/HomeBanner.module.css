@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #233000;
+  padding-top: 15vh;
+}
+
+.textContainer {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.scrollParagraph {
+  font-family: 'Rufina', serif;
+  writing-mode: vertical-rl;
+  line-height: 0%;
+  margin: 0;
+  padding: 2rem 0 0 1.5rem;
+  position: relative;
+  font-size: 3rem;
+}
+
+.scrollParagraph::after {
+  content: '';
+  height: 400%;
+  border-right: 2px dashed #ffffff;
+  position: absolute;
+  margin-top: 0.3rem;
+}
+
+.innerContainer {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+}
+
+.mainPicture {
+  /* width: 42%; */
+  height: 70vh;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  z-index: 5;
+}
+
+.images {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 10vw;
+}
+
+.spicesImg {
+  width: 12rem;
+  height: 12rem;
+  margin: 0 1rem;
+}
+
+.heading {
+  width: 80%;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  line-height: 9.5rem;
+}
+
+.homeParagraph {
+  width: 40%;
+}
+
+@media only screen and (min-width: 1400px) {
+  .heading {
+    width: 75%;
+  }
+}

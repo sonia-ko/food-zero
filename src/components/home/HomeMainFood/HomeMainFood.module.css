@@ -1,0 +1,30 @@
+.container {
+  background-color: #233000;
+  padding: 15vh 0 10vh;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dishSection {
+  width: 50%;
+}
+
+.spicesSection {
+  width: 32%;
+}
+
+.title {
+  width: 60%;
+}
+
+.dishSection .paragraph {
+  width: 60%;
+  padding-top: 3vh;
+}
+
+.spicesSection .paragraph {
+  padding-bottom: 5vh;
+}

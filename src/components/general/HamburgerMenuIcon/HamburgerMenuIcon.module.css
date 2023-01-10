@@ -1,0 +1,14 @@
+.menuPart {
+  width: 46px;
+  height: 5px;
+  background-color: #fff;
+  margin: 8px 0;
+}
+
+.container {
+  margin: 0 3vw;
+}
+
+.container:hover .menuPart {
+  background-color: rgb(195, 207, 203);
+}
