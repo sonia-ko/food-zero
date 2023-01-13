@@ -7,3 +7,29 @@
   font-family: 'Rufina', serif;
   font-size: 2rem;
 }
+
+.transparent {
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  border: none;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.transparent .btnText {
+  padding-right: 1rem;
+}
+
+.transparent .arrowImg {
+  height: 1.75rem;
+}
+
+.transparent:hover {
+  opacity: 0.5;
+}

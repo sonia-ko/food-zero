@@ -1,0 +1,62 @@
+.container {
+  width: 47%;
+}
+
+.articleReview {
+  width: 90%;
+  margin: 0 auto;
+}
+.title {
+  font-family: 'Rufina', serif;
+  color: #000000;
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 700;
+  padding: 1.5rem 0;
+  border-bottom: 4px dashed #000000;
+}
+
+.description {
+  color: #4d4d4d;
+  padding: 2rem 0;
+}
+
+.generalInfo {
+  color: #5e6600;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+}
+
+.descriptionItem {
+  padding-right: 1rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.descriptionItem:nth-child(2) {
+  padding-left: 0;
+}
+
+.descriptionItem::after {
+  content: ' ';
+  position: absolute;
+  background: #5e6600;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.descriptionItem:last-child:after {
+  display: none;
+}

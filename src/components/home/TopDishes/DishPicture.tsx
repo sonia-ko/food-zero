@@ -1,30 +1,23 @@
 import React from 'react';
-import classes from './Feature.module.css';
+import classes from './DishPicture.module.css';
 
-interface FeatureProps {
-  iconSrc: string;
-  iconAlt?: string;
-  heading?: string;
+interface DishPictureProps {
+  imageSrc: string;
+  imageAlt?: string;
   text?: string;
 }
 
-const Feature: React.FC<FeatureProps> = ({
-  iconSrc,
-  heading,
-  text,
-  iconAlt,
+const DishPicture: React.FC<DishPictureProps> = ({
+  imageSrc,
+  text = 'Fashion',
+  imageAlt = 'Photo of the dish',
 }) => {
   return (
     <div className={classes.container}>
-      <img
-        className={classes.icon}
-        src={iconSrc}
-        alt={iconAlt ? iconAlt : 'Our features icon'}
-      />
-      {heading ? <p className={classes.heading}>{heading}</p> : null}
-      {text ? <p className={classes.text}>{text}</p> : null}
+      <img className={classes.picture} src={imageSrc} alt={imageAlt} />
+      <div className={classes.textBox}>{text}</div>
     </div>
   );
 };
 
-export default Feature;
+export default DishPicture;

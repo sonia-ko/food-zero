@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.picture {
+  width: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.textBox {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #5e6600;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 3rem;
+  padding: 0.25rem 1.25rem;
+}

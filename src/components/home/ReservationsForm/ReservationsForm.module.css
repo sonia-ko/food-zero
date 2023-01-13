@@ -1,0 +1,40 @@
+.container {
+  background-color: #ebf0e4;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer {
+  width: 30%;
+}
+
+.inputContainer select {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.datePicker {
+  color: green;
+}
+
+.inputDate {
+  border: 2px solid black;
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  width: 100%;
+  color: red;
+}
+
+.paragraph {
+  color: #4d4d4d;
+  padding: 2rem 0 5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
