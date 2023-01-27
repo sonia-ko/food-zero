@@ -5,10 +5,6 @@
 
 export const copyrightText = '© 2020 Zero Inc. All rights Reserved';
 
-// https://ibb.co/J3rQJwz
-// https: //ibb.co/hFSW7wW
-// https: //ibb.co/9HnFTGX
-
 export const topFeedbacks = [
   {
     picture: 'https://i.ibb.co/414drnj/jane-doe.png',
@@ -31,4 +27,12 @@ export const topFeedbacks = [
       'Wrong do point avoid by fruit learn or in death. So passage however besides invited comfort elderly be me. Walls began of child civil am heard hoped my. Satisfied pretended mr on do determine by. ',
     authorTitle: 'Cook',
   },
+];
+
+export const websiteNavigation = [
+  { title: 'Home', path: '/' },
+  { title: 'Menu', path: '/menu' },
+  { title: 'Blogs', path: '/blogs' },
+  { title: 'About', path: '/about' },
+  { title: 'Contact', path: '/contact' },
 ];

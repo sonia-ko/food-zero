@@ -14,7 +14,6 @@ const Header: React.FC<HeaderProps> = ({ onMenuOpen }) => {
       <div className={classes.innerContainer}>
         <div className={classes.headerPart}>
           <img src={Logo} className={classes.logo} alt='Food Zero' />
-
           <HamburgerMenuIcon onClick={onMenuOpen} />
         </div>
         <div className={classes.headerPart}>

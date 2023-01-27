@@ -1,4 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import { websiteNavigation } from '../../../static/websiteData';
+
 import classes from './Navigation.module.css';
 import {
   phoneNumber,
@@ -8,6 +12,7 @@ import {
   state,
   zipCode,
 } from '../../../static/restaurantData';
+import SocialIconsContainer from '../SocialIconsContainer/SocialIconsContainer';
 
 import background from '../../../assets/general/menu-background.png';
 import closeMenuBtn from '../../../assets/general/close-menu-btn.png';
@@ -22,31 +27,39 @@ const Navigation: React.FC<NavigationProps> = ({ onNavigationClose }) => {
       className={classes.container}
     >
       <div className={classes.innerContainer}>
-        <div>
-          <button onClick={onNavigationClose}>
+        <div className={classes.buttonContainer}>
+          <button className={classes.button} onClick={onNavigationClose}>
             <img src={closeMenuBtn} alt='Close Menu' />
           </button>
         </div>
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>Blogs</li>
-            <li>About</li>
-            <li>Contact</li>
+        <nav className={classes.navigationContainer}>
+          <ul className={classes.navigationList}>
+            {websiteNavigation.map((item) => {
+              return (
+                <li
+                  key={`navigation-${item.title}`}
+                  className={classes.listItem}
+                >
+                  <Link onClick={onNavigationClose} to={item.path}>
+                    {item.title}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
-        <div>
-          <h3>Contact</h3>
-          <p>
-            <span>{phoneNumber}</span>
-            <span>{email}</span>
+        <div className={classes.contactsContainer}>
+          <h3 className={classes.contactTitle}>Contact</h3>
+          <p className={classes.contacts}>
+            <span className='pt-medium'>{phoneNumber}</span>
+            <span className='pb-small'>{email}</span>
+
             <span>{address}</span>
-            <span>{address}</span>
-            <span>
+            <span className='pb-small'>
               {city}, {state}, {zipCode}
             </span>
           </p>
+          <SocialIconsContainer />
         </div>
       </div>
     </div>
