@@ -4,13 +4,18 @@ import HamburgerMenuIcon from '../HamburgerMenuIcon/HamburgerMenuIcon';
 import Logo from '../../../assets/general/logo.png';
 import Button from '../Button/Button';
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  onMenuOpen: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ onMenuOpen }) => {
   return (
     <div className={`  ${classes.container}`}>
       <div className={classes.innerContainer}>
         <div className={classes.headerPart}>
           <img src={Logo} className={classes.logo} alt='Food Zero' />
-          <HamburgerMenuIcon />
+
+          <HamburgerMenuIcon onClick={onMenuOpen} />
         </div>
         <div className={classes.headerPart}>
           <div className={classes.phone}>+86 852 346 000</div>

@@ -1,0 +1,21 @@
+.container {
+  margin: 7rem 0;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pararaph {
+  color: #4d4d4d;
+  margin: 3rem 0 4rem;
+  text-align: center;
+  font-weight: 400;
+}

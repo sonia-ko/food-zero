@@ -33,3 +33,22 @@
 .transparent:hover {
   opacity: 0.5;
 }
+
+.centered {
+  margin: 0 auto;
+  justify-self: center;
+}
+
+.green {
+  /* width: 10rem; */
+  background-color: #233000;
+  margin: 6rem auto 0;
+  border: none;
+  padding: 0.5rem 4rem;
+  font-family: 'Rufina';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}

@@ -1,9 +1,20 @@
 .container {
   background-color: #ebf0e4;
   padding: 10rem 0;
+}
+
+.innerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
 .inputContainer {
@@ -15,21 +26,12 @@
 }
 
 .form {
-  display: flex;
-  width: 80%;
   justify-content: space-between;
+  display: flex;
 }
 
 .datePicker {
   color: green;
-}
-
-.inputDate {
-  border: 2px solid black;
-  font-family: 'Lato', sans-serif;
-  color: #000000;
-  width: 100%;
-  color: red;
 }
 
 .paragraph {
@@ -37,4 +39,34 @@
   padding: 2rem 0 5rem;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+}
+
+.selectBox {
+  -moz-appearance: none;
+  text-indent: 1px;
+  -webkit-appearance: none;
+  text-overflow: '';
+  position: relative;
+  background-position-x: 96%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  backdrop-filter: grayscale(30%);
+  border-radius: 4px;
+  border-color: #b5b8af;
+  height: 3.6rem;
+}
+
+.selectBox:hover {
+  border-color: #000;
+}
+
+.selectBox::-ms-expand {
+  display: none;
+}
+
+.selectBox option {
+  font-size: 1.3rem;
+  font-family: 'Lato', sans-serif;
 }

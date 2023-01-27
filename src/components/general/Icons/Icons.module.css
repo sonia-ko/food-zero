@@ -1,0 +1,15 @@
+.iconSocial {
+  fill: #fff;
+  width: 1.75rem;
+}
+
+.arrowIcon {
+  width: 48px;
+  height: 28px;
+  fill: #233000;
+}
+
+.arrowIcon:hover {
+  fill: #39490b;
+  cursor: pointer;
+}

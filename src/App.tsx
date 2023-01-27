@@ -8,19 +8,38 @@ import Home from './pages/home/Home';
 import Menu from './pages/menu/Menu';
 import Portfolio from './pages/portfolio/Portfolio';
 import Header from './components/general/header/Header';
+import Footer from './components/general/Footer/Footer';
+import Copyright from './components/general/Copyright/Copyright';
+import Navigation from './components/general/Navigation/Navigation';
+import { useState } from 'react';
 
 function App() {
+  const [navigationOpened, setNavigationOpened] = useState(true);
+
   return (
-    <div className='App'>
-      <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/menu' element={<Menu />} />
-        <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='*' element={<Page404 />} />
-      </Routes>
+    <div className={`App ${navigationOpened ? 'appclosed' : ''}`}>
+      {navigationOpened ? (
+        <Navigation onNavigationClose={() => setNavigationOpened(false)} />
+      ) : null}
+
+      <Header
+        onMenuOpen={() => {
+          setNavigationOpened(true);
+          console.log('navigation clicked');
+        }}
+      />
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/menu' element={<Menu />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='*' element={<Page404 />} />
+        </Routes>
+      </main>
+      <Footer />
+      <Copyright />
     </div>
   );
 }

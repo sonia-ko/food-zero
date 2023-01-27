@@ -8,6 +8,7 @@ interface ButtonProps {
   onClick: () => void;
   btnStyle: 'white' | 'green' | 'transparent';
   arrowAfter?: boolean;
+  btnCentered?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -15,9 +16,13 @@ const Button: React.FC<ButtonProps> = ({
   onClick,
   btnStyle,
   arrowAfter = false,
+  btnCentered = false,
 }) => {
   return (
-    <button onClick={onClick} className={classes[btnStyle]}>
+    <button
+      onClick={onClick}
+      className={`${btnCentered ? classes.centered : ''} ${classes[btnStyle]}`}
+    >
       <span className={classes.btnText}>{btnText}</span>
       {arrowAfter ? (
         <img

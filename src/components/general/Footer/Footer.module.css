@@ -1,0 +1,85 @@
+.companyName {
+  font-family: 'Rufina';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.25rem;
+  line-height: 5.25rem;
+  width: 20%;
+}
+
+.companyInfo {
+  width: 30%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.container {
+  padding: 4rem 0;
+}
+
+.form {
+  width: 50%;
+}
+
+.listItem {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.56rem;
+}
+
+.companyInfo {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.innerContainer {
+  display: flex;
+}
+
+.formTitle {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: 'Rufina', serif;
+}
+
+.formDescription {
+  font-size: 0.875rem;
+}
+
+.input {
+  margin: 1rem 0;
+  border: 2px solid #ffffff;
+  width: 55%;
+  height: 4.5rem;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: inherit;
+}
+
+.input::placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.formInnerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.button {
+  padding: 0.5rem;
+  font-family: 'Rufina';
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1rem 0;
+  border: none;
+  background-color: #5e6600;
+  color: #fff;
+  width: 40%;
+  height: 4.5rem;
+}

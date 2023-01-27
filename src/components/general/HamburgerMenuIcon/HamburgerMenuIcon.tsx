@@ -1,13 +1,16 @@
 import React from 'react';
 import classes from './HamburgerMenuIcon.module.css';
 
-const HamburgerMenuIcon: React.FC = () => {
+interface HamburgerMenuIconProps {
+  onClick: () => void;
+}
+const HamburgerMenuIcon: React.FC<HamburgerMenuIconProps> = ({ onClick }) => {
   return (
-    <div className={classes.container}>
+    <button onClick={onClick} className={classes.container}>
       <div className={classes.menuPart}></div>
       <div className={classes.menuPart}></div>
       <div className={classes.menuPart}></div>
-    </div>
+    </button>
   );
 };
 

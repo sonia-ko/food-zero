@@ -1,0 +1,22 @@
+.container {
+  background-color: #233000;
+  color: #fff;
+  border-top: 2px dashed #ffffff;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0 3rem;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1.5rem;
+}

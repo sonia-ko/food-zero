@@ -5,6 +5,7 @@ body {
   font-family: 'Rufina', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100vw;
 }
 
 code {
@@ -26,6 +27,10 @@ section {
   max-width: 100%;
 }
 
+.appclosed {
+  height: 100vh;
+  overflow-y: hidden;
+}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -58,13 +63,19 @@ h3 {
   margin: 0.7rem 0;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 input,
 select {
   font-family: 'Lato', sans-serif;
   color: #000000;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   background-color: transparent;
-  padding: 20px;
+  padding: 0 14px;
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -82,10 +93,30 @@ img {
   /* width: 100%; */
 }
 
+footer {
+  background-color: #233000;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .fullWidthImage {
   width: 100%;
 }
 
+.pb-small {
+  padding-bottom: 1.5rem;
+}
+
+.pb-medium {
+  padding-bottom: 3rem;
+}
+.pt-medium {
+  padding-top: 3rem;
+}
 @media only screen and (min-width: 1400px) {
   h1 {
     font-size: 9.25rem;
