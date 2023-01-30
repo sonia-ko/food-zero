@@ -9,6 +9,10 @@
   margin: 0 3vw;
 }
 
+.container:hover {
+  cursor: pointer;
+}
+
 .container:hover .menuPart {
-  background-color: rgb(195, 207, 203);
+  background-color: #9caa00;
 }

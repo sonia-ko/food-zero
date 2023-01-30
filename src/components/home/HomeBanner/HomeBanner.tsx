@@ -11,6 +11,9 @@ const HomeBanner: React.FC = () => {
   return (
     <div className={classes.container}>
       <div className={`container ${classes.innerContainer}`}>
+        <h1 className={classes.mobileHeading}>
+          Healthy Eating is important part of lifestyle
+        </h1>
         <div className={classes.textContainer}>
           <h1 className={classes.heading}>
             Healthy Eating is important part of lifestyle

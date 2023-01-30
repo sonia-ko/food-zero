@@ -18,7 +18,6 @@ const Home: React.FC = () => {
       <HomeMenu />
       <HomeCook />
       <OurFeatures />
-      {/* section with 2 pictures  */}
       <TopDishes />
       <ReservationsForm />
       <EnergyBalance />

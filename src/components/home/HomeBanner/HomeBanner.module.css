@@ -54,7 +54,7 @@
   position: absolute;
   z-index: 10;
   bottom: 0;
-  right: 10vw;
+  right: 5vw;
 }
 
 .spicesImg {
@@ -64,18 +64,226 @@
 }
 
 .heading {
-  width: 80%;
+  width: 90%;
   margin-bottom: 2rem;
   margin-top: 5rem;
-  line-height: 9.5rem;
 }
 
 .homeParagraph {
   width: 40%;
 }
 
-@media only screen and (min-width: 1400px) {
+.mobileHeading {
+  display: none;
+}
+
+@media only screen and (min-width: 1550px) {
   .heading {
     width: 75%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .images {
+    right: 5vw;
+  }
+  .spicesImg {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    width: 70%;
+  }
+
+  .images {
+    bottom: 2vh;
+  }
+  .mainPicture {
+    height: 60vh;
+  }
+
+  .innerContainer {
+    min-height: 85vh;
+  }
+  .spicesImg {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .scrollParagraph {
+    font-size: 2.5rem;
+  }
+  .heading {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .heading {
+    width: 65%;
+  }
+
+  .images {
+    bottom: 2vh;
+  }
+  .mainPicture {
+    height: 55vh;
+  }
+
+  .innerContainer {
+    min-height: 82vh;
+  }
+
+  .spicesImg {
+    width: 8rem;
+    height: 8rem;
+  }
+  .scrollParagraph {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    padding-top: 10vh;
+  }
+
+  .homeParagraph {
+    font-size: 1.1rem;
+  }
+  .scrollParagraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainPicture {
+    height: 40vh;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: 5;
+  }
+
+  .images {
+    bottom: -5vh;
+  }
+
+  .spicesImg {
+    width: 6rem;
+    height: 6rem;
+  }
+  .heading {
+    display: none;
+  }
+
+  .mobileHeading {
+    display: block;
+  }
+
+  .container {
+    padding-top: 25vh;
+  }
+
+  .textContainer,
+  .mainPicture {
+    top: 40%;
+  }
+  .homeParagraph {
+    width: 30%;
+  }
+
+  .scrollParagraph::after {
+    height: 200%;
+  }
+
+  .innerContainer {
+    min-height: 65vh;
+  }
+
+  .scrollParagraph {
+    padding: 2rem 0 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .homeParagraph {
+    font-size: 1rem;
+  }
+
+  .mainPicture {
+    height: 30vh;
+  }
+
+  .scrollParagraph {
+    padding: 1rem 0 0 0.5rem;
+  }
+
+  .images {
+    bottom: 0;
+  }
+
+  .spicesImg {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .innerContainer {
+    min-height: 50vh;
+  }
+
+  .textContainer {
+    top: 50%;
+  }
+  .scrollParagraph {
+    font-size: 1.25rem;
+  }
+  .scrollParagraph::after {
+    height: 150%;
+  }
+}
+
+@media only screen and (max-width: 526px) {
+  .mainPicture {
+    position: static;
+    height: 35vh;
+  }
+
+  .images {
+    position: absolute;
+    bottom: -3vh;
+  }
+
+  .textContainer {
+    position: static;
+  }
+
+  .homeParagraph {
+    width: 80%;
+    padding: 2rem 0;
+  }
+  .scrollParagraph {
+    position: absolute;
+    height: 30%;
+    top: 40%;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .scrollParagraph {
+    display: none;
+  }
+
+  .spicesImg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .images {
+    column-gap: 0.05rem;
   }
 }

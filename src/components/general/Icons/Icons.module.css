@@ -3,6 +3,9 @@
   width: 1.75rem;
 }
 
+.iconSocial:hover {
+  fill: #9caa00;
+}
 .arrowIcon {
   width: 48px;
   height: 28px;

@@ -8,6 +8,12 @@
   font-size: 2rem;
 }
 
+.white:hover {
+  color: #9caa00;
+  border: 2px solid #9caa00;
+  cursor: pointer;
+}
+
 .transparent {
   background-color: transparent;
   font-family: 'Lato', sans-serif;
@@ -51,4 +57,28 @@
   font-size: 32px;
   line-height: 48px;
   color: #ffffff;
+}
+
+@media (max-width: 1400px) {
+  .white {
+    width: 15.8rem;
+    height: 5rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .white {
+    width: 13.8rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .white {
+    width: 11.8rem;
+    height: 3.5rem;
+    font-size: 1.25rem;
+  }
 }

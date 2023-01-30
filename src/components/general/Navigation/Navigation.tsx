@@ -29,7 +29,11 @@ const Navigation: React.FC<NavigationProps> = ({ onNavigationClose }) => {
       <div className={classes.innerContainer}>
         <div className={classes.buttonContainer}>
           <button className={classes.button} onClick={onNavigationClose}>
-            <img src={closeMenuBtn} alt='Close Menu' />
+            <img
+              className={classes.closeBtnIcon}
+              src={closeMenuBtn}
+              alt='Close Menu'
+            />
           </button>
         </div>
         <nav className={classes.navigationContainer}>
@@ -49,7 +53,7 @@ const Navigation: React.FC<NavigationProps> = ({ onNavigationClose }) => {
           </ul>
         </nav>
         <div className={classes.contactsContainer}>
-          <h3 className={classes.contactTitle}>Contact</h3>
+          <h3 className={`${classes.contactTitle} text-medium`}>Contact</h3>
           <p className={classes.contacts}>
             <span className='pt-medium'>{phoneNumber}</span>
             <span className='pb-small'>{email}</span>

@@ -9,10 +9,18 @@ import IconInstagram from '../Icons/IconInstagram';
 const SocialIconsContainer: React.FC = () => {
   return (
     <div className={classes.icons}>
-      <IconInstagram />
-      <IconTwitter />
-      <IconFacebook />
-      <IconYouTube />
+      <a rel='noreferrer' target='_blank' href='https://instagram.com/'>
+        <IconInstagram />
+      </a>
+      <a rel='noreferrer' target='_blank' href='https://twitter.com/'>
+        <IconTwitter />
+      </a>
+      <a rel='noreferrer' target='_blank' href='https://facebook.com/'>
+        <IconFacebook />
+      </a>
+      <a rel='noreferrer' target='_blank' href='https://youtube.com/'>
+        <IconYouTube />
+      </a>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Page404 from './pages/404/404';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
@@ -11,10 +11,11 @@ import Header from './components/general/header/Header';
 import Footer from './components/general/Footer/Footer';
 import Copyright from './components/general/Copyright/Copyright';
 import Navigation from './components/general/Navigation/Navigation';
+import Reservations from './pages/reservations/Reservations';
 import { useState } from 'react';
 
 function App() {
-  const [navigationOpened, setNavigationOpened] = useState(true);
+  const [navigationOpened, setNavigationOpened] = useState(false);
 
   return (
     <div className={`App ${navigationOpened ? 'appclosed' : ''}`}>
@@ -23,8 +24,10 @@ function App() {
       ) : null}
 
       <Header
+        displayHeader={navigationOpened ? false : true}
         onMenuOpen={() => {
           setNavigationOpened(true);
+
           console.log('navigation clicked');
         }}
       />
@@ -35,6 +38,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/menu' element={<Menu />} />
           <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/reservations' element={<Reservations />} />
           <Route path='*' element={<Page404 />} />
         </Routes>
       </main>
