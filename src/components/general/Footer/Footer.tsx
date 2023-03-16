@@ -1,5 +1,5 @@
-import React from 'react';
-import classes from './Footer.module.css';
+import React from "react";
+import classes from "./Footer.module.css";
 import {
   phoneNumber,
   email,
@@ -7,7 +7,8 @@ import {
   city,
   state,
   zipCode,
-} from '../../../static/restaurantData';
+} from "../../../static/restaurantData";
+import Button from "../Button/Button";
 
 const Footer: React.FC = () => {
   return (
@@ -29,13 +30,16 @@ const Footer: React.FC = () => {
           <p className={classes.formTitle}>Never Miss a Recipe</p>
           <div className={classes.formInnerContainer}>
             <input
-              placeholder='Email Address'
+              placeholder="Email Address"
               className={classes.input}
-              type='email'
+              type="email"
             />
-            <button type='submit' className={classes.button}>
-              Subscribe
-            </button>
+            <Button
+              btnStyle="lightgreen"
+              btnText="Subscribe"
+              onClick={() => {}}
+              type="submit"
+            />
           </div>
           <p className={classes.formDescription}>
             Join our subscribers and get best recipe delivered each week!

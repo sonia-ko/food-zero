@@ -1,5 +1,5 @@
 .companyName {
-  font-family: 'Rufina';
+  font-family: "Rufina";
   font-style: normal;
   font-weight: 700;
   font-size: 4.25rem;
@@ -41,7 +41,7 @@
   font-weight: 700;
   font-size: 2rem;
   line-height: 3rem;
-  font-family: 'Rufina', serif;
+  font-family: "Rufina", serif;
 }
 
 .formDescription {
@@ -73,7 +73,7 @@
 
 .button {
   padding: 0.5rem;
-  font-family: 'Rufina';
+  font-family: "Rufina";
   font-weight: 700;
   font-size: 2rem;
   margin: 1rem 0;
@@ -82,4 +82,89 @@
   color: #fff;
   width: 40%;
   height: 4.5rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .companyName {
+    font-size: 3.25rem;
+    line-height: 4.25rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .companyName {
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+  }
+
+  .formTitle {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .companyInfo {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .listItem {
+    font-size: 1rem;
+  }
+
+  .formInnerContainer {
+    margin-top: 1rem;
+  }
+
+  .input {
+    margin: 0.75rem 0;
+    width: 55%;
+    height: 4rem;
+    font-size: 1.25rem;
+  }
+
+  .input::placeholder {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .innerContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .companyName {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    order: 2;
+  }
+  .form {
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .innerContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .companyName {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    order: 1;
+  }
+
+  .companyInfo {
+    width: 70%;
+  }
+  .form {
+    width: 100%;
+    order: 2;
+    margin-top: 2rem;
+  }
 }
