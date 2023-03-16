@@ -1,7 +1,8 @@
-import React from 'react';
-import classes from './HomeMenu.module.css';
+import React from "react";
+import classes from "./HomeMenu.module.css";
 
-import background from '../../../assets/home/leaves.png';
+import background from "../../../assets/home/leaves.png";
+import HomeMenuItem from "./HomeMenuItem";
 
 const HomeMenu: React.FC = () => {
   return (
@@ -21,37 +22,29 @@ const HomeMenu: React.FC = () => {
         </div>
 
         <div className={classes.pricesSection}>
-          <div className={classes.pricesItem}>
-            <p className={classes.price}>$20</p>
-            <p className={classes.mealName}>Deep Sea Snow White Cod Fillet</p>
-            <p className={classes.mealDescription}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
+          <HomeMenuItem
+            mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            price={20}
+            mealName="Deep Sea Snow White Cod Fillet"
+          />
 
-          <div className={classes.pricesItem}>
-            <p className={classes.price}>$22</p>
-            <p className={classes.mealName}>Steak With Rosemary Butter</p>
-            <p className={classes.mealDescription}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
+          <HomeMenuItem
+            mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            price={22}
+            mealName="Steak With Rosemary Butter"
+          />
 
-          <div className={classes.pricesItem}>
-            <p className={classes.price}>$18</p>
-            <p className={classes.mealName}>Cucumber Salad</p>
-            <p className={classes.mealDescription}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
+          <HomeMenuItem
+            mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            price={18}
+            mealName="Cucumber Salad"
+          />
 
-          <div className={classes.pricesItem}>
-            <p className={classes.price}>$90</p>
-            <p className={classes.mealName}>Natural Wine Pairing</p>
-            <p className={classes.mealDescription}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
+          <HomeMenuItem
+            mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            price={90}
+            mealName="Natural Wine Pairing"
+          />
         </div>
       </div>
     </section>

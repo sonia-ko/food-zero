@@ -50,9 +50,26 @@
     width: 60%;
     padding-top: 2vh;
   }
+
+  .spicesSection {
+    width: 37%;
+  }
+
+  .dishSection {
+    width: 55%;
+  }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
+  .title {
+    width: 80%;
+  }
+
+  .dishSection .paragraph {
+    width: 80%;
+    padding-top: 2vh;
+  }
+
   .spicesSection {
     width: 37%;
   }
@@ -63,12 +80,70 @@
 }
 
 @media (max-width: 768px) {
-  .title {
+  .container {
+    padding: 7vh 0 10vh;
+  }
+
+  .innerContainer {
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+
+  .dishSection {
     width: 100%;
   }
 
   .dishSection .paragraph {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .spicesSection .paragraph {
+    order: 2;
+  }
+
+  .spicesSection {
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    column-gap: 2rem;
+  }
+
+  .spicesSection .paragraph {
     width: 60%;
-    padding-top: 3vh;
+  }
+
+  .spicesImage {
+    width: 55%;
+    max-width: 55%;
+  }
+
+  .title {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 5vh 0 10vh;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .container {
+    padding: 5vh 0 10vh;
+  }
+
+  .spicesSection {
+    flex-direction: column;
+  }
+
+  .spicesImage {
+    width: 100%;
+    max-width: 100%;
+  }
+  .spicesSection .paragraph {
+    width: 100%;
+    padding-top: 1rem;
   }
 }

@@ -1,0 +1,122 @@
+.price {
+  color: #000000;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  font-family: "Rufina", serif;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  border-bottom: 4px dashed #000000;
+  margin-bottom: 1rem;
+}
+
+.mealName {
+  color: #000000;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.3rem;
+  font-family: "Rufina", serif;
+  margin: 1.5rem 0;
+}
+
+.mealDescription {
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+}
+
+.pricesItem {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7rem;
+}
+
+@media (max-width: 1400px) {
+  .price {
+    font-size: 2.7rem;
+    line-height: 4rem;
+    border-bottom: 3px dashed #000000;
+    margin-bottom: 0.5rem;
+  }
+  .mealName {
+    font-size: 3.5rem;
+    line-height: 4.3rem;
+    margin: 1.25rem 0;
+  }
+  .mealDescription {
+    font-size: 1.25rem;
+  }
+  .pricesItem {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .price {
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+  }
+
+  .mealName {
+    font-size: 3rem;
+    line-height: 3.3rem;
+    margin: 1rem 0;
+  }
+  .mealDescription {
+    font-size: 1.15rem;
+  }
+  .pricesItem {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .price {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .mealName {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin: 0.75rem 0;
+  }
+  .mealDescription {
+    font-size: 1.1rem;
+  }
+  .pricesItem {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mealName {
+    font-size: 2rem;
+    margin: 0.75rem 0;
+  }
+  .mealDescription {
+    font-size: 1.1rem;
+  }
+  .pricesItem {
+    margin-bottom: 3.5rem;
+  }
+  .pricesItem {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .mealName {
+    font-size: 1.75rem;
+    width: 90%;
+    margin: 0.75rem 0;
+  }
+
+  .pricesItem {
+    margin-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.262982b3.css",
+    "main.js": "/static/js/main.5bca7b6b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/cooking.png": "/static/media/cooking.d1763a8e82aba4953404.png",
+    "static/media/menu-background.png": "/static/media/menu-background.c99b100e98a413eb8b68.png",
+    "static/media/plate-with-meal.png": "/static/media/plate-with-meal.03008f9887ad26fe8900.png",
+    "static/media/spices3.png": "/static/media/spices3.456a0b4e00034cedfdd0.png",
+    "static/media/spices2.png": "/static/media/spices2.70bfe379fdfaf8041b5d.png",
+    "static/media/spices1.png": "/static/media/spices1.0eaa8fbe6a76895d4db3.png",
+    "static/media/seafood.png": "/static/media/seafood.375ade0b1612c87f6f04.png",
+    "static/media/spices.png": "/static/media/spices.ce959d167aebe6ba93db.png",
+    "static/media/leaves.png": "/static/media/leaves.65cb67f88d2028dfc479.png",
+    "static/media/leaf.png": "/static/media/leaf.f1de5509b74c01bc0dab.png",
+    "static/media/leaf-left.png": "/static/media/leaf-left.b739c3d6fc2997f0987a.png",
+    "index.html": "/index.html",
+    "main.262982b3.css.map": "/static/css/main.262982b3.css.map",
+    "main.5bca7b6b.js.map": "/static/js/main.5bca7b6b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.262982b3.css",
+    "static/js/main.5bca7b6b.js"
+  ]
+}
