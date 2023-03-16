@@ -42,8 +42,8 @@ function App() {
           <Route path="*" element={<Page404 />} />
         </Routes>
       </main>
-      {/* <Footer /> */}
-      {/* <Copyright /> */}
+      <Footer />
+      <Copyright />
     </div>
   );
 }

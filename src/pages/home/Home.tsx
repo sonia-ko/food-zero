@@ -18,11 +18,11 @@ const Home: React.FC = () => {
       <HomeMainFood />
       <HomeMenu />
       <HomeCook />
-      {/*  <OurFeatures />
+      <OurFeatures />
       <TopDishes />
       <ReservationsForm />
       <EnergyBalance />
-      <HomeFeedbacks /> */}
+      <HomeFeedbacks />
     </section>
   );
 };

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.262982b3.css",
-    "main.js": "/static/js/main.5bca7b6b.js",
+    "main.css": "/static/css/main.7035290c.css",
+    "main.js": "/static/js/main.1131c43e.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/cooking.png": "/static/media/cooking.d1763a8e82aba4953404.png",
     "static/media/menu-background.png": "/static/media/menu-background.c99b100e98a413eb8b68.png",
@@ -9,18 +9,24 @@
     "static/media/spices3.png": "/static/media/spices3.456a0b4e00034cedfdd0.png",
     "static/media/spices2.png": "/static/media/spices2.70bfe379fdfaf8041b5d.png",
     "static/media/spices1.png": "/static/media/spices1.0eaa8fbe6a76895d4db3.png",
+    "static/media/fruit-rolls.png": "/static/media/fruit-rolls.68b658295071481d4a5f.png",
     "static/media/seafood.png": "/static/media/seafood.375ade0b1612c87f6f04.png",
     "static/media/spices.png": "/static/media/spices.ce959d167aebe6ba93db.png",
+    "static/media/asparagus.png": "/static/media/asparagus.d975d29b35c86c26a339.png",
+    "static/media/mains.png": "/static/media/mains.023b22918d0eb36bd6eb.png",
+    "static/media/starters.png": "/static/media/starters.f4ba84ed4f1417f2fb56.png",
+    "static/media/soups.png": "/static/media/soups.dceca673d8b58ab984d7.png",
     "static/media/leaves.png": "/static/media/leaves.65cb67f88d2028dfc479.png",
     "static/media/leaf.png": "/static/media/leaf.f1de5509b74c01bc0dab.png",
     "static/media/leaf-left.png": "/static/media/leaf-left.b739c3d6fc2997f0987a.png",
+    "static/media/julie-christie-photo.png": "/static/media/julie-christie-photo.d07158c834de0fbb0cde.png",
     "index.html": "/index.html",
-    "main.262982b3.css.map": "/static/css/main.262982b3.css.map",
-    "main.5bca7b6b.js.map": "/static/js/main.5bca7b6b.js.map",
+    "main.7035290c.css.map": "/static/css/main.7035290c.css.map",
+    "main.1131c43e.js.map": "/static/js/main.1131c43e.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.262982b3.css",
-    "static/js/main.5bca7b6b.js"
+    "static/css/main.7035290c.css",
+    "static/js/main.1131c43e.js"
   ]
 }
