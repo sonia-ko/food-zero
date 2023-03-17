@@ -147,6 +147,11 @@
 }
 
 @media (max-width: 768px) {
+  .companyName {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
   .innerContainer {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -166,5 +171,52 @@
     width: 100%;
     order: 2;
     margin-top: 2rem;
+  }
+
+  .input {
+    margin: 0.75rem 0;
+    width: 55%;
+    height: 4rem;
+    font-size: 1.15rem;
+  }
+
+  .input::placeholder {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .form {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .input {
+    margin: 0.5rem 0;
+    height: 3.5rem;
+    font-size: 1.15rem;
+  }
+
+  .input::placeholder {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .formInnerContainer {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+
+  .input {
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 3.5rem;
+    font-size: 1.15rem;
+  }
+
+  .input::placeholder {
+    font-size: 1rem;
   }
 }

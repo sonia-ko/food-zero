@@ -4,7 +4,7 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  width: 30%;
+  width: 33%;
 }
 
 .icon {
@@ -13,16 +13,78 @@
 }
 
 .heading {
-  font-family: 'Rufina', serif;
+  font-family: "Rufina", serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.7rem;
   line-height: 4rem;
   color: #000000;
   margin: 1.5rem 0;
   text-align: center;
+  /* min-height: 8rem; */
 }
 
 .text {
   color: #4d4d4d;
   text-align: center;
+  width: 80%;
+}
+
+@media (max-width: 1400px) {
+  .heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    width: 80%;
+    margin: 1.25rem 0;
+  }
+
+  .icon {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 2.25rem;
+    line-height: 3rem;
+    width: 85%;
+    margin: 1.25rem 0;
+  }
+
+  .icon {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 60%;
+    margin: 1.25rem 0;
+  }
+
+  .icon {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    margin: 1rem 0;
+  }
+
+  .text {
+    width: 60%;
+  }
 }
