@@ -269,4 +269,21 @@ a:visited {
     font-size: 2rem;
     line-height: 2.5rem;
   }
+
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.MuiDayPicker-monthContainer .MuiDayPicker-weekContainer button.Mui-selected {
+  background-color: #233000;
+}
+
+.MuiYearPicker-root .PrivatePickersYear-root button.Mui-selected {
+  background-color: #233000;
+}
+
+main .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #233000;
 }

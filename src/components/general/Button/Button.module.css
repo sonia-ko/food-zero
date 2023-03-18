@@ -55,9 +55,14 @@
   font-family: "Rufina";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 2rem;
+  line-height: 3rem;
   color: #ffffff;
+}
+
+.green:hover {
+  cursor: pointer;
+  background-color: #5e6600;
 }
 
 .lightgreen {
@@ -88,6 +93,10 @@
   .lightgreen {
     font-size: 1.75rem;
   }
+
+  .green {
+    margin: 5.5rem auto 0;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -112,6 +121,19 @@
   .transparent .arrowImg {
     height: 1.25rem;
   }
+
+  .green {
+    margin: 5rem auto 0;
+    font-size: 1.75rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .green {
+    margin: 4.5rem auto 0;
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -119,6 +141,11 @@
     width: 11.8rem;
     height: 3.5rem;
     font-size: 1.25rem;
+  }
+
+  .green {
+    margin: 2.5rem auto 0;
+    font-size: 1.5rem;
   }
 }
 
@@ -137,5 +164,10 @@
     margin: 0.5rem 0;
     width: 100%;
     height: 3.5rem;
+  }
+  .green {
+    margin: 2.5rem auto 0;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
   }
 }
