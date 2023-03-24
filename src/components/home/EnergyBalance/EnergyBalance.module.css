@@ -19,3 +19,31 @@
   text-align: center;
   font-weight: 400;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 5rem 0;
+  }
+
+  .title {
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .title {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .imagesContainer {
+    flex-direction: column;
+  }
+
+  .pararaph {
+    margin: 2rem auto 3rem;
+    width: 80%;
+    font-weight: 400;
+  }
+}

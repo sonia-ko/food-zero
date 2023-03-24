@@ -1,9 +1,10 @@
 .container {
   position: relative;
 }
+
 .feedbackText {
   color: #000;
-  font-family: 'Rufina';
+  font-family: "Rufina";
   font-weight: 700;
   font-size: 3rem;
   line-height: 4rem;
@@ -28,8 +29,8 @@
   font-weight: 700;
   font-size: 2rem;
   line-height: 3rem;
-  font-family: 'Rufina';
-  width: 65%;
+  font-family: "Rufina";
+  /* width: 65%; */
   justify-self: flex-start;
 }
 
@@ -43,22 +44,125 @@
 }
 
 .arrows {
-  justify-self: flex-end;
+  /* justify-self: flex-end; */
+  margin-left: auto;
   color: #000;
   display: flex;
+  justify-content: center;
   align-items: center;
   column-gap: 1rem;
-  font-family: 'Rufina';
+  font-family: "Rufina";
   font-weight: 700;
   font-size: 2rem;
   line-height: 3rem;
 }
 
 .jobTitle {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
+}
+
+@media (max-width: 1400px) {
+  .feedbackText {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .arrows {
+    column-gap: 0.5rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .feedbackText {
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+  }
+
+  .arrows {
+    column-gap: 0.5rem;
+    font-size: 1.55rem;
+  }
+
+  .authorInfo {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .feedbackText {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .quote {
+    position: absolute;
+    width: 10rem;
+  }
+
+  .authorInfo {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+  }
+
+  .jobTitle {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .feedbackText {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+  .authorInfo {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .jobTitle {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  .avatar {
+    width: 20%;
+  }
+
+  .authorBlock {
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .quote {
+    position: absolute;
+    width: 8rem;
+  }
+
+  .arrows {
+    font-size: 1.55rem;
+    margin-top: 2rem;
+  }
+
+  .authorBlock {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .avatar {
+    width: 20%;
+  }
+
+  .authorInfo {
+    width: 70%;
+    padding-bottom: 1rem;
+  }
+
+  .feedbackText {
+    margin: 0 0 2rem;
+  }
 }

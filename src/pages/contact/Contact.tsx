@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import WillBeSoon from "../../components/general/WillBeSoon/WillBeSoon";
 
 const Contact: React.FC = () => {
   return (
     <section>
-      <h2>This page will be there soon</h2>
+      <WillBeSoon pageName="Contact" />
     </section>
   );
 };

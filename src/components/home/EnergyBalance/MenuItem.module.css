@@ -19,7 +19,7 @@
 }
 
 .container::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -62,5 +62,54 @@
     top: 1rem;
     left: 1rem;
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .itemName {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .image {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+
+  .itemName {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .image {
+    height: 60vh;
+  }
+
+  .arrow {
+    width: 2.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .image {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 350px) {
+  .image {
+    height: 40vh;
+  }
+  .itemName {
+    font-size: 1.5rem;
   }
 }

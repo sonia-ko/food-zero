@@ -16,3 +16,13 @@
   fill: #39490b;
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+  .arrowIcon {
+    fill: #233000;
+  }
+
+  .arrowIcon rect {
+    fill: #233000;
+  }
+}

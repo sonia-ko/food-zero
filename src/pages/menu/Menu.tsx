@@ -1,10 +1,11 @@
-import React from 'react';
-import ReservationsForm from '../../components/home/ReservationsForm/ReservationsForm';
+import React from "react";
+import ReservationsForm from "../../components/home/ReservationsForm/ReservationsForm";
+import WillBeSoon from "../../components/general/WillBeSoon/WillBeSoon";
 
 const Menu: React.FC = () => {
   return (
     <section>
-      <h2>This page will be there soon</h2>
+      <WillBeSoon pageName="Menu" />
       <ReservationsForm />
     </section>
   );
