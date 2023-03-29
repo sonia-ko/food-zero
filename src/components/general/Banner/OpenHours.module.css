@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  right: 5%;
+  bottom: 5rem;
+  width: 40rem;
+}
+
+.openDays {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed #ffffff;
+  padding: 0 0 1rem;
+}
+
+.heading {
+  font-family: "Rufina";
+  font-weight: 700;
+}
+
+.closedHours {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 0;
+}

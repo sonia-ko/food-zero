@@ -135,6 +135,10 @@ a:visited {
   font-size: 2rem;
   line-height: 3rem;
 }
+.text-sm {
+  font-size: 1.5rem;
+  line-height: 140%;
+}
 
 @media only screen and (min-width: 1400px) {
   h1 {
@@ -146,6 +150,11 @@ a:visited {
   .text-medium {
     font-size: 1.8rem;
     line-height: 2.7rem;
+  }
+
+  .text-sm {
+    font-size: 1.25rem;
+    line-height: 130%;
   }
 
   .pt-medium {
@@ -188,6 +197,11 @@ a:visited {
     line-height: 2.25rem;
   }
 
+  .text-sm {
+    font-size: 1.15rem;
+    line-height: 120%;
+  }
+
   .pt-medium {
     padding-top: 2rem;
   }
@@ -204,6 +218,10 @@ a:visited {
 }
 
 @media only screen and (max-width: 992px) {
+  .text-sm {
+    font-size: 1.1rem;
+  }
+
   h1 {
     font-size: 4.25rem;
     line-height: 5.5rem;

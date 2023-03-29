@@ -1,19 +1,23 @@
 import React from "react";
-import classes from "./HomeMenuItem.module.css";
+import classes from "./MenuItem.module.css";
 
-interface HomeMenuItemProps {
+export interface MenuItemProps {
   price: number;
   mealName: string;
   mealdescription: string;
+  width?: "full" | "default";
 }
 
-const HomeMenuItem: React.FC<HomeMenuItemProps> = ({
+const MenuItem: React.FC<MenuItemProps> = ({
   price,
   mealName,
-  mealdescription,
+  mealdescription = "default",
+  width,
 }) => {
   return (
-    <div className={classes.pricesItem}>
+    <div
+      className={width === "full" ? classes.pricesItemFull : classes.pricesItem}
+    >
       <p className={classes.price}>${price}</p>
       <p className={classes.mealName}>{mealName}</p>
       <p className={classes.mealDescription}>{mealdescription}</p>
@@ -21,4 +25,4 @@ const HomeMenuItem: React.FC<HomeMenuItemProps> = ({
   );
 };
 
-export default HomeMenuItem;
+export default MenuItem;

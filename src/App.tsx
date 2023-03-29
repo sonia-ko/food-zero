@@ -27,8 +27,6 @@ function App() {
         displayHeader={navigationOpened ? false : true}
         onMenuOpen={() => {
           setNavigationOpened(true);
-
-          console.log("navigation clicked");
         }}
       />
       <main>

@@ -1,14 +1,14 @@
-import React from 'react';
-import classes from './EnergyBalance.module.css';
+import React from "react";
+import classes from "./EnergyBalance.module.css";
 
-import MenuItem from './MenuItem';
-import starters from '../../../assets/home/starters.png';
-import mains from '../../../assets/home/mains.png';
-import soups from '../../../assets/home/soups.png';
+import CourseCard from "./CourseCard";
+import starters from "../../../assets/home/starters.png";
+import mains from "../../../assets/home/mains.png";
+import soups from "../../../assets/home/soups.png";
 
 const EnergyBalance: React.FC = () => {
   return (
-    <div className='container'>
+    <div className="container">
       <div className={classes.container}>
         <h2 className={classes.title}>Calories Energy Balance</h2>
         <p className={classes.pararaph}>
@@ -16,31 +16,31 @@ const EnergyBalance: React.FC = () => {
         </p>
 
         <div className={classes.imagesContainer}>
-          <MenuItem
+          <CourseCard
             handleClick={() => {
-              console.log('clicked');
+              console.log("clicked");
             }}
             imgSrc={starters}
-            itemName='Starters'
-            imgAlt='Starters'
+            itemName="Starters"
+            imgAlt="Starters"
           />
 
-          <MenuItem
+          <CourseCard
             handleClick={() => {
-              console.log('clicked');
+              console.log("clicked");
             }}
             imgSrc={mains}
-            itemName='Mains'
-            imgAlt='mains'
+            itemName="Mains"
+            imgAlt="mains"
           />
 
-          <MenuItem
+          <CourseCard
             handleClick={() => {
-              console.log('clicked');
+              console.log("clicked");
             }}
             imgSrc={soups}
-            itemName='Soups'
-            imgAlt='soups'
+            itemName="Soups"
+            imgAlt="soups"
           />
         </div>
       </div>

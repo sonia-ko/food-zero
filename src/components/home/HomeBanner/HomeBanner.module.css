@@ -17,7 +17,7 @@
 }
 
 .scrollParagraph {
-  font-family: 'Rufina', serif;
+  font-family: "Rufina", serif;
   writing-mode: vertical-rl;
   line-height: 0%;
   margin: 0;
@@ -27,7 +27,7 @@
 }
 
 .scrollParagraph::after {
-  content: '';
+  content: "";
   height: 400%;
   border-right: 2px dashed #ffffff;
   position: absolute;
@@ -37,7 +37,8 @@
 .innerContainer {
   position: relative;
   z-index: 10;
-  min-height: 100vh;
+  /* min-height: 115vh; */
+  min-height: 60rem;
 }
 
 .mainPicture {
@@ -81,9 +82,19 @@
   .heading {
     width: 75%;
   }
+
+  .innerContainer {
+    /* min-height: 100vh; */
+    min-height: 60rem;
+  }
 }
 
 @media screen and (max-width: 1400px) {
+  .innerContainer {
+    /* min-height: 115vh; */
+    min-height: 58rem;
+  }
+
   .images {
     right: 5vw;
   }
@@ -94,8 +105,12 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .innerContainer {
+    /* min-height: 110vh; */
+    min-height: 52rem;
+  }
   .heading {
-    width: 70%;
+    width: 80%;
   }
 
   .images {
@@ -105,9 +120,6 @@
     height: 60vh;
   }
 
-  .innerContainer {
-    min-height: 85vh;
-  }
   .spicesImg {
     width: 9rem;
     height: 9rem;
@@ -123,7 +135,7 @@
 
 @media screen and (max-width: 992px) {
   .heading {
-    width: 65%;
+    width: 75%;
   }
 
   .images {
@@ -134,7 +146,8 @@
   }
 
   .innerContainer {
-    min-height: 82vh;
+    /* min-height: 86vh; */
+    min-height: 47rem;
   }
 
   .spicesImg {
@@ -193,7 +206,8 @@
     top: 40%;
   }
   .homeParagraph {
-    width: 30%;
+    width: 35%;
+    margin-top: 2rem;
   }
 
   .scrollParagraph::after {
@@ -201,7 +215,7 @@
   }
 
   .innerContainer {
-    min-height: 65vh;
+    min-height: 39rem;
   }
 
   .scrollParagraph {
@@ -232,7 +246,7 @@
   }
 
   .innerContainer {
-    min-height: 50vh;
+    min-height: 33rem;
   }
 
   .textContainer {
@@ -242,7 +256,7 @@
     font-size: 1.25rem;
   }
   .scrollParagraph::after {
-    height: 150%;
+    height: 120%;
   }
 }
 

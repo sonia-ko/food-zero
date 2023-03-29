@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./HomeMenu.module.css";
 
 import background from "../../../assets/home/leaves.png";
-import HomeMenuItem from "./HomeMenuItem";
+import MenuItem from "../../general/MenuItem/MenuItem";
 
 const HomeMenu: React.FC = () => {
   return (
@@ -22,25 +22,25 @@ const HomeMenu: React.FC = () => {
         </div>
 
         <div className={classes.pricesSection}>
-          <HomeMenuItem
+          <MenuItem
             mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             price={20}
             mealName="Deep Sea Snow White Cod Fillet"
           />
 
-          <HomeMenuItem
+          <MenuItem
             mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             price={22}
             mealName="Steak With Rosemary Butter"
           />
 
-          <HomeMenuItem
+          <MenuItem
             mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             price={18}
             mealName="Cucumber Salad"
           />
 
-          <HomeMenuItem
+          <MenuItem
             mealdescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             price={90}
             mealName="Natural Wine Pairing"
