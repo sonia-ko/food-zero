@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.40e21417.css",
-    "main.js": "/static/js/main.17320eaa.js",
+    "main.css": "/static/css/main.0f970a7b.css",
+    "main.js": "/static/js/main.00b2d60d.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/menu-page.png": "/static/media/menu-page.ed3f7cb71c2719d0e70f.png",
     "static/media/cooking.png": "/static/media/cooking.d1763a8e82aba4953404.png",
@@ -27,16 +27,17 @@
     "static/media/table.png": "/static/media/table.1c01debfd68e7296914d.png",
     "static/media/leaf.png": "/static/media/leaf.f1de5509b74c01bc0dab.png",
     "static/media/leaf-left.png": "/static/media/leaf-left.b739c3d6fc2997f0987a.png",
+    "static/media/mint.png": "/static/media/mint.e19036a62212a9e172c8.png",
     "static/media/orange.png": "/static/media/orange.2b16a52f66a284e5ab68.png",
     "static/media/julie-christie-photo.png": "/static/media/julie-christie-photo.d07158c834de0fbb0cde.png",
     "static/media/blueberry-bg.png": "/static/media/blueberry-bg.eaa13ebcef4bf43f1407.png",
     "index.html": "/index.html",
-    "main.40e21417.css.map": "/static/css/main.40e21417.css.map",
-    "main.17320eaa.js.map": "/static/js/main.17320eaa.js.map",
+    "main.0f970a7b.css.map": "/static/css/main.0f970a7b.css.map",
+    "main.00b2d60d.js.map": "/static/js/main.00b2d60d.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40e21417.css",
-    "static/js/main.17320eaa.js"
+    "static/css/main.0f970a7b.css",
+    "static/js/main.00b2d60d.js"
   ]
 }

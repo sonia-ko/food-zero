@@ -15,6 +15,10 @@
   color: #233000;
 }
 
+.white {
+  color: #eeee;
+}
+
 @media (max-width: 1400px) {
   .md {
     font-size: 1.75rem;

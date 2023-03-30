@@ -5,13 +5,13 @@ import Banner from "../../components/general/Banner/Banner";
 
 const About: React.FC = () => {
   return (
-    <section>
+    <div>
       <Banner
         image={bg}
         title="Who We Are"
         description="The most important thing for us is to give you the comfortable dining experience"
       />
-    </section>
+    </div>
   );
 };
 

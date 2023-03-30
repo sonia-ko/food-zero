@@ -11,7 +11,7 @@ import RegistrationForm from "../../components/general/Form/RegistrationForm/Reg
 
 const Contact: React.FC = () => {
   return (
-    <section>
+    <div>
       <Banner
         showedOpenHours={true}
         image={bg}
@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
       </TwoColumnsBlock>
 
       <RegistrationForm />
-    </section>
+    </div>
   );
 };
 

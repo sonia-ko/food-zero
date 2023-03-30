@@ -90,16 +90,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px 46px;
+  padding: 1.25rem 2.875rem;
   font-family: "Rufina";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 1rem 0;
 }
 
 .black:hover {
   background-color: rgba(150, 137, 137, 0.5);
+  cursor: pointer;
 }
 
 @media (max-width: 1400px) {
@@ -116,9 +118,20 @@
   .green {
     margin: 5.5rem auto 0;
   }
+
+  .black {
+    padding: 1.25rem 2.875rem;
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
 }
 
 @media (max-width: 1200px) {
+  .black {
+    padding: 1.15rem 2.25rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
   .white {
     width: 13.8rem;
     height: 4rem;
@@ -153,6 +166,12 @@
     margin: 4.5rem auto 0;
     font-size: 1.5rem;
   }
+
+  .black {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -160,6 +179,11 @@
     width: 11.8rem;
     height: 3.5rem;
     font-size: 1.25rem;
+  }
+
+  .black {
+    font-size: 1.15rem;
+    line-height: 2.15rem;
   }
 
   .green {
