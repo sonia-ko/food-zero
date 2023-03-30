@@ -10,6 +10,10 @@ import {
 } from "../../../static/restaurantData";
 import Button from "../Button/Button";
 
+const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  console.log("SUbmitted");
+};
 const Footer: React.FC = () => {
   return (
     <footer className={`${classes.container}`}>
@@ -26,7 +30,7 @@ const Footer: React.FC = () => {
             {city}, {state}, {zipCode}
           </li>
         </ul>
-        <form className={classes.form}>
+        <form onSubmit={(e) => handleSubmit(e)} className={classes.form}>
           <p className={classes.formTitle}>Never Miss a Recipe</p>
           <div className={classes.formInnerContainer}>
             <input
@@ -37,7 +41,9 @@ const Footer: React.FC = () => {
             <Button
               btnStyle="lightgreen"
               btnText="Subscribe"
-              onClick={() => {}}
+              onClick={() => {
+                console.log("clicked");
+              }}
               type="submit"
             />
           </div>

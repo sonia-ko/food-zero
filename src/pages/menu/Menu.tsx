@@ -1,5 +1,5 @@
 import React from "react";
-import ReservationsForm from "../../components/home/ReservationsForm/ReservationsForm";
+import ReservationsForm from "../../components/general/Form/ReservationsForm/ReservationsForm";
 import bannerImg from "../../assets/menu/menu-page.png";
 import Banner from "../../components/general/Banner/Banner";
 import avocado from "../../assets/menu/avocado-bg.png";

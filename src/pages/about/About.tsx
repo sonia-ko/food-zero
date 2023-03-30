@@ -1,10 +1,16 @@
 import React from "react";
-import WillBeSoon from "../../components/general/WillBeSoon/WillBeSoon";
+
+import bg from "../../assets/about/about-bg.png";
+import Banner from "../../components/general/Banner/Banner";
 
 const About: React.FC = () => {
   return (
     <section>
-      <WillBeSoon pageName="About" />
+      <Banner
+        image={bg}
+        title="Who We Are"
+        description="The most important thing for us is to give you the comfortable dining experience"
+      />
     </section>
   );
 };

@@ -1,0 +1,47 @@
+.selectBox {
+  -moz-appearance: none;
+  text-indent: 1px;
+  -webkit-appearance: none;
+  text-overflow: "";
+  position: relative;
+  background-position-x: 96%;
+  background-position-y: center;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  border-color: #b5b8af;
+  height: 3.55rem;
+}
+
+.selectBox:hover {
+  border-color: #000;
+}
+
+.selectBox::-ms-expand {
+  display: none;
+}
+
+.selectBox option {
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .selectBox {
+    background-size: 10%;
+  }
+}
+
+@media (max-width: 992px) {
+  .selectBox {
+    background-size: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .selectBox {
+    background-size: 1rem;
+    background-position-x: calc(100% - 0.75rem);
+  }
+}

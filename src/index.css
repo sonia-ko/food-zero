@@ -80,6 +80,9 @@ select {
   border: 1px solid #000000;
   background-color: transparent;
   padding: 0 14px;
+  /* border-radius: 4px; */
+  line-height: 1.3rem;
+  font-size: 1rem;
 }
 p {
   font-family: "Lato", sans-serif;
@@ -138,6 +141,10 @@ a:visited {
 .text-sm {
   font-size: 1.5rem;
   line-height: 140%;
+}
+
+.text-light {
+  color: #9caa00;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -304,4 +311,8 @@ a:visited {
 
 main .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
   border-color: #233000;
+}
+
+main .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 0;
 }

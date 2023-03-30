@@ -6,7 +6,7 @@ import arrowAfterIcon from "../../../assets/general/icon-arrow-right.png";
 interface ButtonProps {
   btnText: string;
   onClick: () => void;
-  btnStyle: "white" | "green" | "transparent" | "lightgreen";
+  btnStyle: "white" | "green" | "transparent" | "lightgreen" | "black";
   arrowAfter?: boolean;
   btnCentered?: boolean;
   type?: "button" | "submit";

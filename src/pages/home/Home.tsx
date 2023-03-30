@@ -6,7 +6,7 @@ import HomeMainFood from "../../components/home/HomeMainFood/HomeMainFood";
 import HomeFeedbacks from "../../components/home/HomeFeedbacks/HomeFeedbacks";
 import HomeCook from "../../components/home/HomeCook/HomeCook";
 import HomeBanner from "../../components/home/HomeBanner/HomeBanner";
-import ReservationsForm from "../../components/home/ReservationsForm/ReservationsForm";
+import ReservationsForm from "../../components/general/Form/ReservationsForm/ReservationsForm";
 import TopDishes from "../../components/home/TopDishes/TopDishes";
 import OurFeatures from "../../components/home/OurFeautures/OurFeatures";
 

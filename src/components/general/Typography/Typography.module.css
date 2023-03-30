@@ -1,0 +1,16 @@
+.md {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.family-secondary {
+  font-family: "Rufina";
+}
+
+.color-primary {
+  color: #233000;
+}

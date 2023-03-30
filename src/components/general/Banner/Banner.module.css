@@ -66,6 +66,13 @@
     line-height: 2.25rem;
     width: 80%;
   }
+  .container {
+    min-height: 40rem;
+  }
+  .title {
+    /* width: 50%; */
+    margin-top: 5rem;
+  }
 }
 
 @media (max-width: 576px) {
