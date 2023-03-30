@@ -1,0 +1,12 @@
+.input {
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  border-color: #b5b8af;
+  height: 3.55rem;
+  width: 100%;
+}
+
+.input::focus {
+  border-color: #233000;
+}

@@ -21,6 +21,7 @@ const Input: React.FC<InputProps> = ({
   return (
     <div className={classes.input}>
       <input
+        className={classes.input}
         onChange={handleChange}
         value={value}
         type={inputType}

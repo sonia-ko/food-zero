@@ -10,6 +10,7 @@ import SubmissionConfirmation from "../SuccessMessage/SubmissionConfirmation";
 import Select from "../Select/Select";
 import DatePickerInput from "../DatePicker/DatePicker";
 import Input from "../Input/Input";
+import mint from "../../../../assets/contact/mint.png";
 
 const RegistrationForm: React.FC = () => {
   const [formOpened, setFormOpened] = useState(true);
@@ -46,7 +47,10 @@ const RegistrationForm: React.FC = () => {
     setFormOpened(true);
   };
   return (
-    <div className={classes.container}>
+    <div
+      style={{ backgroundImage: `url(${mint})` }}
+      className={classes.container}
+    >
       <div className={`container ${classes.innerContainer}`}>
         <h2 className={classes.title}>Make a Reservation</h2>
         {formOpened ? (
@@ -58,11 +62,41 @@ const RegistrationForm: React.FC = () => {
               action="#"
             >
               <div className={classes.form}>
-                {/* onChange={handleChange}
-        value={value}
-        type={inputType}
-        placeholder={placeHholder} */}
-                {/* <Input type='text' placeHholder="First Name" /> */}
+                <Input
+                  onChange={(value: string) => {
+                    setFirstName(value);
+                  }}
+                  value={firstName}
+                  inputType="text"
+                  placeHholder="First Name"
+                />
+
+                <Input
+                  onChange={(value: string) => {
+                    setLastName(value);
+                  }}
+                  value={lastName}
+                  inputType="text"
+                  placeHholder="Last Name"
+                />
+
+                <Input
+                  onChange={(value: string) => {
+                    setEmail(value);
+                  }}
+                  value={email}
+                  inputType="email"
+                  placeHholder="Email"
+                />
+
+                <Input
+                  onChange={(value: string) => {
+                    setPhone(value);
+                  }}
+                  value={phone}
+                  inputType="phone"
+                  placeHholder="Phone"
+                />
 
                 <DatePickerInput
                   changeDate={(newValue) => setReservationDate(newValue)}

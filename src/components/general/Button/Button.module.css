@@ -98,6 +98,10 @@
   line-height: 48px;
 }
 
+.black:hover {
+  background-color: rgba(150, 137, 137, 0.5);
+}
+
 @media (max-width: 1400px) {
   .white {
     width: 15.8rem;

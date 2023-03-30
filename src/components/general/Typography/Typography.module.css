@@ -1,6 +1,6 @@
 .md {
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 .bold {
@@ -13,4 +13,35 @@
 
 .color-primary {
   color: #233000;
+}
+
+@media (max-width: 1400px) {
+  .md {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .md {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 982px) {
+  .md {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .md {
+    font-size: 1.15rem;
+    line-height: 2.15rem;
+  }
+}
+
+@media (max-width: 576px) {
 }

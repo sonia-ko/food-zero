@@ -29,3 +29,41 @@
 .align-end {
   align-items: flex-end;
 }
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 982px) {
+}
+
+@media (max-width: 768px) {
+  .containerInner {
+    flex-direction: column;
+  }
+  .img {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+    padding: 3rem 0;
+  }
+
+  .imgRight {
+    order: 0;
+  }
+
+  .container {
+    background-repeat: no-repeat;
+    padding: 4rem 0 0;
+    margin: 1rem 0;
+    background-position: bottom right;
+    background-size: 12rem;
+  }
+}
+
+@media (max-width: 576px) {
+}
