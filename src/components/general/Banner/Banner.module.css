@@ -8,6 +8,7 @@
   position: relative;
   max-width: 100vw;
   overflow: hidden;
+  margin-bottom: 9rem;
 }
 
 .innerContainer {
@@ -16,6 +17,18 @@
   justify-content: center;
 }
 
+.textRight {
+  align-items: flex-end;
+  padding-right: 20rem;
+}
+
+.textRight .title {
+  width: auto;
+}
+
+.textRight .paragraph {
+  width: 55%;
+}
 .title {
   width: 60%;
 }
@@ -29,6 +42,10 @@
 }
 
 @media (max-width: 1400px) {
+  .container {
+    margin-bottom: 8rem;
+  }
+
   .paragraph {
     font-size: 1.75rem;
     line-height: 2.75rem;
@@ -44,6 +61,10 @@
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
+
+  .container {
+    margin-bottom: 7rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -54,6 +75,10 @@
   .paragraph {
     font-size: 1.25rem;
     line-height: 2.25rem;
+  }
+
+  .container {
+    margin-bottom: 6rem;
   }
 }
 
@@ -69,6 +94,7 @@
   }
   .container {
     min-height: 40rem;
+    margin-bottom: 3rem;
   }
   .title {
     margin-top: 5rem;

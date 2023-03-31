@@ -1,6 +1,6 @@
 .container {
   background-repeat: no-repeat;
-  padding: 6rem 0;
+  padding: 4rem 0 2rem;
   margin: 1rem 0;
   background-position: top center;
   background-size: 15rem;
@@ -34,9 +34,17 @@
 }
 
 @media (max-width: 1200px) {
+  .container {
+    padding: 3rem 0 1rem;
+    background-size: 12rem;
+  }
 }
 
 @media (max-width: 982px) {
+  .container {
+    padding: 2.5rem 0 1rem;
+    background-size: 8rem;
+  }
 }
 
 @media (max-width: 768px) {

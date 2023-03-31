@@ -122,6 +122,10 @@ a:visited {
   width: 100%;
 }
 
+.mb-sm {
+  margin-bottom: 2.5rem;
+}
+
 .pb-small {
   padding-bottom: 1.5rem;
 }
@@ -166,6 +170,11 @@ a:visited {
   .pt-medium {
     padding-top: 2.5rem;
   }
+
+  .mb-sm {
+    margin-bottom: 2rem;
+  }
+
   h1 {
     line-height: 8.5rem;
   }
@@ -221,11 +230,19 @@ a:visited {
     font-size: 1.15rem;
     line-height: 120%;
   }
+
+  .mb-sm {
+    margin-bottom: 1.75rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .text-sm {
     font-size: 1.1rem;
+  }
+
+  .mb-sm {
+    margin-bottom: 1.5rem;
   }
 
   h1 {
@@ -249,6 +266,10 @@ a:visited {
 }
 
 @media only screen and (max-width: 768px) {
+  .mb-sm {
+    margin-bottom: 1rem;
+  }
+
   h1 {
     font-size: 4rem;
     line-height: 4.5rem;
