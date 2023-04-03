@@ -13,7 +13,7 @@ import OurFeatures from "../../components/home/OurFeautures/OurFeatures";
 //comment
 const Home: React.FC = () => {
   return (
-    <section className={classes.container}>
+    <>
       <HomeBanner />
       <HomeMainFood />
       <HomeMenu />
@@ -23,7 +23,7 @@ const Home: React.FC = () => {
       <ReservationsForm />
       <EnergyBalance />
       <HomeFeedbacks />
-    </section>
+    </>
   );
 };
 

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a09e8a22.css",
-    "main.js": "/static/js/main.d1f222e7.js",
+    "main.css": "/static/css/main.8f05eba7.css",
+    "main.js": "/static/js/main.e4d5bcf2.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/menu-page.png": "/static/media/menu-page.ed3f7cb71c2719d0e70f.png",
     "static/media/cooking.png": "/static/media/cooking.d1763a8e82aba4953404.png",
@@ -24,8 +24,10 @@
     "static/media/leaves.png": "/static/media/leaves.65cb67f88d2028dfc479.png",
     "static/media/drinks-example.png": "/static/media/drinks-example.81805c982159158a89ce.png",
     "static/media/garden.png": "/static/media/garden.38f42903dffeab94c0e6.png",
+    "static/media/carson-hugh.png": "/static/media/carson-hugh.035f9b513f2b62f6de71.png",
     "static/media/table.png": "/static/media/table.1c01debfd68e7296914d.png",
     "static/media/cook.png": "/static/media/cook.244599606b9590a9acc5.png",
+    "static/media/jane-cooper.png": "/static/media/jane-cooper.1b7e33567a0e41be3271.png",
     "static/media/leaf.png": "/static/media/leaf.f1de5509b74c01bc0dab.png",
     "static/media/leaf-left.png": "/static/media/leaf-left.b739c3d6fc2997f0987a.png",
     "static/media/mint.png": "/static/media/mint.e19036a62212a9e172c8.png",
@@ -34,12 +36,12 @@
     "static/media/julie-christie-photo.png": "/static/media/julie-christie-photo.d07158c834de0fbb0cde.png",
     "static/media/blueberry-bg.png": "/static/media/blueberry-bg.eaa13ebcef4bf43f1407.png",
     "index.html": "/index.html",
-    "main.a09e8a22.css.map": "/static/css/main.a09e8a22.css.map",
-    "main.d1f222e7.js.map": "/static/js/main.d1f222e7.js.map",
+    "main.8f05eba7.css.map": "/static/css/main.8f05eba7.css.map",
+    "main.e4d5bcf2.js.map": "/static/js/main.e4d5bcf2.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a09e8a22.css",
-    "static/js/main.d1f222e7.js"
+    "static/css/main.8f05eba7.css",
+    "static/js/main.e4d5bcf2.js"
   ]
 }

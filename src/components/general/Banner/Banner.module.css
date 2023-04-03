@@ -9,6 +9,7 @@
   max-width: 100vw;
   overflow: hidden;
   margin-bottom: 9rem;
+  margin-top: 0;
 }
 
 .innerContainer {

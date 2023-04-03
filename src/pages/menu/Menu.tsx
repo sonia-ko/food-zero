@@ -100,7 +100,7 @@ const menuItems = [
 ];
 const Menu: React.FC = () => {
   return (
-    <section>
+    <>
       <Banner
         description="The freshest ingredients for you every day"
         title="View Our New Menu"
@@ -108,7 +108,7 @@ const Menu: React.FC = () => {
       />
       <MenuContainer items={menuItems} />
       <ReservationsForm />
-    </section>
+    </>
   );
 };
 

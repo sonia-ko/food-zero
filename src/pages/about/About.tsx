@@ -7,6 +7,8 @@ import cookImg from "../../assets/about/cook.png";
 import tomatoBg from "../../assets/about/tomato.png";
 import Typography from "../../components/general/Typography/Typography";
 import ReservationsForm from "../../components/general/Form/ReservationsForm/ReservationsForm";
+import { topEmployees } from "../../static/restaurantData";
+import DescriptionsBlock from "../../components/general/DescriptionsBlock/DescriptionsBlock";
 
 const About: React.FC = () => {
   return (
@@ -36,6 +38,21 @@ const About: React.FC = () => {
           tincidunt lacus nunc.
         </Typography>
       </TwoColumnsBlock>
+
+      <section>
+        {topEmployees.map((el, i) => {
+          return (
+            <DescriptionsBlock
+              description={el.description}
+              image={el.image}
+              key={el.title}
+              subtitle={el.name}
+              title={el.title}
+              style={i % 2 == 0 ? "imgLeft" : "imgRight"}
+            />
+          );
+        })}
+      </section>
       <ReservationsForm />
     </div>
   );

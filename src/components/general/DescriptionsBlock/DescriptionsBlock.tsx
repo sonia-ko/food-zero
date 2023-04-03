@@ -1,27 +1,40 @@
 import React from "react";
 import classes from "./DescriptionsBlock.module.css";
-import Button from "../Button/Button";
-import { useNavigate } from "react-router-dom";
+import Typography from "../Typography/Typography";
 
 interface DescriptionsBlockProps {
   title: string;
   subtitle: string;
   description: string;
   image: string;
+  style: "imgRight" | "imgLeft";
 }
+
 const DescriptionsBlock: React.FC<DescriptionsBlockProps> = ({
   title,
   subtitle,
   description,
   image,
+  style,
 }) => {
-  const navigate = useNavigate();
+  console.log(style);
   return (
-    <div className={`${classes.container}`}>
-      <div>
-        <h3>{title}</h3>
-        <p>{subtitle}</p>
-        <img src={image} alt="" />
+    <div className={`${classes.container} container`}>
+      <div
+        className={`${classes.innerContainer} ${
+          style === "imgLeft" ? classes.imgLeft : classes.imgRight
+        }  `}
+      >
+        <div className={classes.content}>
+          <h3 className={classes.title}>{title}</h3>
+          <Typography align="center" classN={classes.subtitle} fontSize="sm">
+            {subtitle}
+          </Typography>
+          <img src={image} alt={title} />
+        </div>
+        <Typography classN={classes.description} fontSize="sm">
+          {description}
+        </Typography>
       </div>
     </div>
   );

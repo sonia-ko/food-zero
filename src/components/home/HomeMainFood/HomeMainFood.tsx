@@ -6,7 +6,7 @@ import spices from "../../../assets/home/spices.png";
 
 const HomeMainFood: React.FC = () => {
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <div className={`container ${classes.innerContainer}`}>
         <div className={classes.dishSection}>
           <img className="fullWidthImage" src={dish} alt="Seafood dish" />
@@ -28,7 +28,7 @@ const HomeMainFood: React.FC = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

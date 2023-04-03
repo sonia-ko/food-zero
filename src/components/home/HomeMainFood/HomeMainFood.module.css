@@ -1,6 +1,8 @@
 .container {
   background-color: #233000;
   padding: 15vh 0 10vh;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .innerContainer {

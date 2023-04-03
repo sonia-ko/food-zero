@@ -1,3 +1,6 @@
+import carsonHugn from "../assets/about/carson-hugh.png";
+import janeCooper from "../assets/about/jane-cooper.png";
+
 export const phoneNumber = "+1+86 852 346 000";
 export const email = "info@foodzero.com";
 export const address = "1959 Sepulveda Blvd";
@@ -30,4 +33,27 @@ export const numberOfPersonsAvailable = [
   "7 person",
   "8 person",
   "9 person",
+];
+
+interface employees {
+  title: string;
+  name: string;
+  description: string;
+  image: string;
+}
+export const topEmployees: employees[] = [
+  {
+    title: "Restaurant Manager",
+    name: "Carson Hugn",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. ",
+    image: carsonHugn,
+  },
+  {
+    title: "Executive Chef",
+    name: "Jane Cooper",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et in sed in pellentesque ornare nunc nisl. Augue habitant accumsan, ut parturient orci ac etiam congue mi.",
+    image: janeCooper,
+  },
 ];

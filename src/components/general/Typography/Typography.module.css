@@ -3,6 +3,11 @@
   line-height: 3rem;
 }
 
+.sm {
+  font-size: 1.5rem;
+  line-height: 140%;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -19,6 +24,10 @@
   color: #233000;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .white {
   color: #eeee;
 }
@@ -28,6 +37,11 @@
     font-size: 1.75rem;
     line-height: 2.75rem;
   }
+
+  .sm {
+    font-size: 1.4rem;
+    line-height: 140%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -35,12 +49,20 @@
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
+  .sm {
+    font-size: 1.25rem;
+    line-height: 140%;
+  }
 }
 
 @media (max-width: 982px) {
   .md {
     font-size: 1.25rem;
     line-height: 2.25rem;
+  }
+  .sm {
+    font-size: 1.15rem;
+    line-height: 120%;
   }
 }
 
@@ -52,4 +74,8 @@
 }
 
 @media (max-width: 576px) {
+  .sm {
+    font-size: 1rem;
+    line-height: 110%;
+  }
 }
