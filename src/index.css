@@ -154,6 +154,14 @@ a:visited {
   color: #9caa00;
 }
 
+.text-black {
+  color: #000000;
+}
+
+.text-centered {
+  text-align: center;
+}
+
 @media only screen and (min-width: 1400px) {
   h1 {
     font-size: 9.25rem;

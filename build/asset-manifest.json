@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f05eba7.css",
-    "main.js": "/static/js/main.e4d5bcf2.js",
+    "main.css": "/static/css/main.460e5c4a.css",
+    "main.js": "/static/js/main.baf1d1c7.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/menu-page.png": "/static/media/menu-page.ed3f7cb71c2719d0e70f.png",
-    "static/media/cooking.png": "/static/media/cooking.d1763a8e82aba4953404.png",
+    "static/media/cooking.png": "/static/media/cooking.ad82d22c46026a6a360e.png",
     "static/media/menu-background.png": "/static/media/menu-background.c99b100e98a413eb8b68.png",
     "static/media/plate-with-meal.png": "/static/media/plate-with-meal.03008f9887ad26fe8900.png",
     "static/media/spices3.png": "/static/media/spices3.456a0b4e00034cedfdd0.png",
@@ -21,6 +21,7 @@
     "static/media/contacts-bg.png": "/static/media/contacts-bg.3cedaa27f9c3bfe8ba1b.png",
     "static/media/mains-example.png": "/static/media/mains-example.9804d237518c21333846.png",
     "static/media/starters-example.png": "/static/media/starters-example.88e0fdfaa73b865b027b.png",
+    "static/media/toast.png": "/static/media/toast.1e60e1fcd387a7e895bc.png",
     "static/media/leaves.png": "/static/media/leaves.65cb67f88d2028dfc479.png",
     "static/media/drinks-example.png": "/static/media/drinks-example.81805c982159158a89ce.png",
     "static/media/garden.png": "/static/media/garden.38f42903dffeab94c0e6.png",
@@ -28,6 +29,7 @@
     "static/media/table.png": "/static/media/table.1c01debfd68e7296914d.png",
     "static/media/cook.png": "/static/media/cook.244599606b9590a9acc5.png",
     "static/media/jane-cooper.png": "/static/media/jane-cooper.1b7e33567a0e41be3271.png",
+    "static/media/rosemary.png": "/static/media/rosemary.68bd9a2b7dee7468925a.png",
     "static/media/leaf.png": "/static/media/leaf.f1de5509b74c01bc0dab.png",
     "static/media/leaf-left.png": "/static/media/leaf-left.b739c3d6fc2997f0987a.png",
     "static/media/mint.png": "/static/media/mint.e19036a62212a9e172c8.png",
@@ -36,12 +38,12 @@
     "static/media/julie-christie-photo.png": "/static/media/julie-christie-photo.d07158c834de0fbb0cde.png",
     "static/media/blueberry-bg.png": "/static/media/blueberry-bg.eaa13ebcef4bf43f1407.png",
     "index.html": "/index.html",
-    "main.8f05eba7.css.map": "/static/css/main.8f05eba7.css.map",
-    "main.e4d5bcf2.js.map": "/static/js/main.e4d5bcf2.js.map",
+    "main.460e5c4a.css.map": "/static/css/main.460e5c4a.css.map",
+    "main.baf1d1c7.js.map": "/static/js/main.baf1d1c7.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f05eba7.css",
-    "static/js/main.e4d5bcf2.js"
+    "static/css/main.460e5c4a.css",
+    "static/js/main.baf1d1c7.js"
   ]
 }

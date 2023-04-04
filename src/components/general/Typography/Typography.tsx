@@ -5,7 +5,7 @@ interface TypographyProps {
   text?: string;
   bold?: boolean;
   fontSize: "xs" | "sm" | "md" | "lg" | "xl";
-  fontColor?: "primary" | "secondary" | "white" | "green";
+  fontColor?: "primary" | "secondary" | "white" | "green" | "black";
   fontFamily?: "primary" | "secondary";
   children: string | JSX.Element | JSX.Element[];
   classN?: string;

@@ -8,6 +8,11 @@
   line-height: 140%;
 }
 
+.xl {
+  font-size: 5.5rem;
+  line-height: 120%;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -32,6 +37,10 @@
   color: #eeee;
 }
 
+.color-black {
+  color: #000000;
+}
+
 @media (max-width: 1400px) {
   .md {
     font-size: 1.75rem;
@@ -41,6 +50,10 @@
   .sm {
     font-size: 1.4rem;
     line-height: 140%;
+  }
+
+  .xl {
+    font-size: 5.25rem;
   }
 }
 
@@ -53,6 +66,10 @@
     font-size: 1.25rem;
     line-height: 140%;
   }
+
+  .xl {
+    font-size: 5rem;
+  }
 }
 
 @media (max-width: 982px) {
@@ -64,6 +81,10 @@
     font-size: 1.15rem;
     line-height: 120%;
   }
+
+  .xl {
+    font-size: 4.5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -71,11 +92,19 @@
     font-size: 1.15rem;
     line-height: 2.15rem;
   }
+
+  .xl {
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 576px) {
   .sm {
     font-size: 1rem;
     line-height: 110%;
+  }
+
+  .xl {
+    font-size: 3.5rem;
   }
 }
