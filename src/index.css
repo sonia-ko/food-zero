@@ -137,6 +137,10 @@ a:visited {
 .pb-medium {
   padding-bottom: 3rem;
 }
+
+.pb-large {
+  padding-bottom: 5rem;
+}
 .pt-medium {
   padding-top: 3rem;
 }
@@ -162,6 +166,10 @@ a:visited {
   text-align: center;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
 @media only screen and (min-width: 1400px) {
   h1 {
     font-size: 9.25rem;
@@ -185,6 +193,10 @@ a:visited {
 
   .mb-sm {
     margin-bottom: 2rem;
+  }
+
+  .pb-large {
+    padding-bottom: 4.5rem;
   }
 
   h1 {
@@ -233,6 +245,10 @@ a:visited {
     padding-top: 2rem;
   }
 
+  .pb-large {
+    padding-bottom: 4rem;
+  }
+
   h3 {
     font-size: 2.75rem;
     line-height: 3.75rem;
@@ -255,6 +271,10 @@ a:visited {
 
   .mb-sm {
     margin-bottom: 1.5rem;
+  }
+
+  .pb-large {
+    padding-bottom: 3.5rem;
   }
 
   h1 {
@@ -294,6 +314,10 @@ a:visited {
   h3 {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+
+  .pb-large {
+    padding-bottom: 3rem;
   }
 }
 

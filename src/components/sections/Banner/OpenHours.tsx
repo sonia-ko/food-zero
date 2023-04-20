@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./OpenHours.module.css";
-import Typography from "../Typography/Typography";
+import Typography from "../../general/Typography/Typography";
 // text?: string;
 // bold: boolean;
 // fontSize: "xs" | "sm" | "md" | "lg" | "xl";

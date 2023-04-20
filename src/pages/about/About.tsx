@@ -1,8 +1,8 @@
 import React from "react";
 
 import bg from "../../assets/about/about-bg.png";
-import Banner from "../../components/general/Banner/Banner";
-import TwoColumnsBlock from "../../components/general/TwoColumnsBlock/TwoColumnsBlock";
+import Banner from "../../components/sections/Banner/Banner";
+import TwoColumnsBlock from "../../components/sections/TwoColumnsBlock/TwoColumnsBlock";
 import cookImg from "../../assets/about/cook.png";
 import rosemary from "../../assets/about/rosemary.png";
 import tomatoBg from "../../assets/about/tomato.png";
@@ -11,7 +11,7 @@ import Typography from "../../components/general/Typography/Typography";
 import ReservationsForm from "../../components/general/Form/ReservationsForm/ReservationsForm";
 import { topEmployees } from "../../static/restaurantData";
 import DescriptionsBlock from "../../components/general/DescriptionsBlock/DescriptionsBlock";
-import VideoSection from "../../components/general/VideoSection/VideoSection";
+import VideoSection from "../../components/sections/VideoSection/VideoSection";
 
 import classes from "./About.module.css";
 
@@ -59,7 +59,11 @@ const About: React.FC = () => {
         })}
       </section>
       <section>
-        <VideoSection />
+        <VideoSection
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+          title="It looks delicious"
+          video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+        />
       </section>
       <section
         style={{ backgroundImage: `url(${rosemary})` }}

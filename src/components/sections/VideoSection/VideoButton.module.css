@@ -1,0 +1,47 @@
+.container {
+  z-index: 500;
+  width: 142px;
+  height: 142px;
+  /* position: absolute;
+  height: 150px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; */
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 132px;
+    height: 132px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 122px;
+    height: 122px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 112px;
+    height: 112px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 102px;
+    height: 102px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 92px;
+    height: 92px;
+  }
+}

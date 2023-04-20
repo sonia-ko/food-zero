@@ -1,5 +1,5 @@
 import React from "react";
-import WillBeSoon from "../../components/general/WillBeSoon/WillBeSoon";
+import WillBeSoon from "../../components/sections/WillBeSoon/WillBeSoon";
 
 const Page404: React.FC = () => {
   return (

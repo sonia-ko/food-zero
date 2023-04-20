@@ -1,0 +1,13 @@
+.container {
+  height: 45rem;
+  color: #2330006c;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 25rem;
+    color: #2330006c;
+    position: relative;
+  }
+}

@@ -11,6 +11,7 @@ import Header from "./components/general/header/Header";
 import Footer from "./components/general/Footer/Footer";
 import Copyright from "./components/general/Copyright/Copyright";
 import Navigation from "./components/general/Navigation/Navigation";
+import Blog from "./pages/blog/Blog";
 import Reservations from "./pages/reservations/Reservations";
 import { useState } from "react";
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/reservations" element={<Reservations />} />
+          <Route path="/blogs" element={<Blog />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </main>

@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./WillBeSoon.module.css";
-import Button from "../Button/Button";
+import Button from "../../general/Button/Button";
 import { useNavigate } from "react-router-dom";
 
 interface WillBeSoonProps {
