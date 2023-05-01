@@ -1,0 +1,35 @@
+.container {
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding: 4rem 0 12rem;
+  background-size: 15rem;
+}
+.innerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.columnContainer {
+  width: 40%;
+}
+@media (max-width: 982px) {
+  .columnContainer {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .innerContainer {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 0 0 4rem;
+    background-size: 7rem;
+  }
+
+  .columnContainer {
+    width: 100%;
+    order: initial;
+  }
+}

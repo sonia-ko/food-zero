@@ -1,17 +1,27 @@
 import React from "react";
 
-import bg from "../../assets/about/about-bg.png";
+//components
 import Banner from "../../components/sections/Banner/Banner";
 import TwoColumnsBlock from "../../components/sections/TwoColumnsBlock/TwoColumnsBlock";
-import cookImg from "../../assets/about/cook.png";
-import rosemary from "../../assets/about/rosemary.png";
-import tomatoBg from "../../assets/about/tomato.png";
-import cooking from "../../assets/about/cooking.png";
 import Typography from "../../components/general/Typography/Typography";
 import ReservationsForm from "../../components/general/Form/ReservationsForm/ReservationsForm";
-import { topEmployees } from "../../static/restaurantData";
 import DescriptionsBlock from "../../components/general/DescriptionsBlock/DescriptionsBlock";
 import VideoSection from "../../components/sections/VideoSection/VideoSection";
+import HeadingWithText from "../../components/general/HeadingWithText/HeadingWithText";
+import ColumnsWithImagesBlock from "../../components/sections/ColumnsWithImagesBlock/ColumnsWithImagesBlock";
+
+// images
+import bg from "../../assets/about/about-bg.png";
+import cookImg from "../../assets/about/cook.png";
+import rosemary from "../../assets/about/rosemary.png";
+import rosemaryBgLeft from "../../assets/about/rosemary-bg-left.png";
+import meat from "../../assets/about/meat.png";
+import grill from "../../assets/about/grill.png";
+import tomatoBg from "../../assets/about/tomato.png";
+import cooking from "../../assets/about/cooking.png";
+
+//static data
+import { topEmployees } from "../../static/restaurantData";
 
 import classes from "./About.module.css";
 
@@ -31,17 +41,12 @@ const About: React.FC = () => {
         bgImage={tomatoBg}
         image={cookImg}
       >
-        <h2 className="mb-sm">Our Story</h2>
-        <Typography
-          fontFamily="primary"
-          fontColor="primary"
-          fontSize="md"
-          bold={false}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem
+        <HeadingWithText
+          title="Our Story"
+          text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem
           id penatibus imperdiet. Turpis egestas ultricies purus auctor
-          tincidunt lacus nunc.
-        </Typography>
+          tincidunt lacus nunc."
+        />
       </TwoColumnsBlock>
 
       <section>
@@ -65,38 +70,44 @@ const About: React.FC = () => {
           video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
         />
       </section>
-      <section
+      <div
         style={{ backgroundImage: `url(${rosemary})` }}
         className={classes.sectionBg}
       >
-        <h2 className="text-black text-centered">Sophisticated Process</h2>
+        <h2 className="text-black my-large text-centered">
+          Sophisticated Process
+        </h2>
         <TwoColumnsBlock
           alignItems="center"
           imgPosition="left"
           altImage="cook"
           image={cooking}
         >
-          <Typography
-            fontFamily="secondary"
-            fontColor="black"
-            fontSize="xl"
-            bold={true}
-          >
-            01.Slice
-          </Typography>
-          <Typography
-            fontFamily="primary"
-            fontColor="primary"
-            fontSize="sm"
-            bold={false}
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem
+          <HeadingWithText
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem
             id penatibus imperdiet. Turpis egestas ultricies purus auctor
             tincidunt lacus nunc. Convallis pellentesque quis fringilla
-            sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam.
-          </Typography>
+            sagittis. Egestas in risus sit nunc nunc, arcu donec nam etiam."
+            title="01.Slice"
+          />
         </TwoColumnsBlock>
-      </section>
+      </div>
+      <ColumnsWithImagesBlock
+        bgImage={rosemaryBgLeft}
+        columns={[
+          {
+            title: "02.Pickled",
+            img: meat,
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet.",
+          },
+          {
+            title: "03.Bake",
+            img: grill,
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus lorem id penatibus imperdiet. ",
+          },
+        ]}
+      />
+
       <ReservationsForm />
     </div>
   );

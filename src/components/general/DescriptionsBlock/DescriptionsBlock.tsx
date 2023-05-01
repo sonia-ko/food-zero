@@ -17,7 +17,6 @@ const DescriptionsBlock: React.FC<DescriptionsBlockProps> = ({
   image,
   style,
 }) => {
-  console.log(style);
   return (
     <div className={`${classes.container} container`}>
       <div
@@ -32,9 +31,19 @@ const DescriptionsBlock: React.FC<DescriptionsBlockProps> = ({
           </Typography>
           <img src={image} alt={title} />
         </div>
-        <Typography classN={classes.description} fontSize="sm">
-          {description}
-        </Typography>
+        <div
+          className={
+            style === "imgRight" ? classes.textRight : classes.textLeft
+          }
+        >
+          <Typography
+            align={style === "imgLeft" ? "left" : "right"}
+            classN={classes.description}
+            fontSize="sm"
+          >
+            {description}
+          </Typography>
+        </div>
       </div>
     </div>
   );

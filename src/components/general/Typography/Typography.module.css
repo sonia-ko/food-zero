@@ -29,8 +29,20 @@
   color: #233000;
 }
 
+.color-gray {
+  color: #4d4d4d;
+}
+
 .align-center {
   text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
 }
 
 .white {
@@ -83,7 +95,7 @@
   }
 
   .xl {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -94,7 +106,7 @@
   }
 
   .xl {
-    font-size: 4rem;
+    font-size: 3.75rem;
   }
 }
 
@@ -106,5 +118,11 @@
 
   .xl {
     font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .xl {
+    font-size: 2.5rem;
   }
 }

@@ -3,3 +3,8 @@
   background-position-x: right;
   background-size: 15rem;
 }
+@media (max-width: 768px) {
+  .sectionBg {
+    background-size: 7rem;
+  }
+}

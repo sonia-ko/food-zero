@@ -10,8 +10,6 @@ const VideoButton: React.FC<VideoButtonProps> = ({ onClick }) => {
     <button className={classes.container}>
       <svg
         onClick={onClick}
-        // width="142"
-        // height="142"
         viewBox="0 0 142 142"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

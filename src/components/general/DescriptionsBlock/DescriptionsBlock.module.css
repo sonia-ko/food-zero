@@ -13,7 +13,7 @@
 }
 
 .content {
-  width: 42%;
+  width: 45%;
 }
 
 .content img {
@@ -21,9 +21,18 @@
 }
 
 .description {
-  width: 42%;
+  width: 60%;
 }
 
+.textRight,
+.textLeft {
+  width: 45%;
+  display: flex;
+}
+
+.textRight {
+  justify-content: flex-end;
+}
 .imgRight .content {
   order: 1;
 }
@@ -45,9 +54,19 @@
 }
 
 @media (max-width: 1200px) {
+  .imgRight {
+    margin-top: -20rem;
+  }
 }
 
 @media (max-width: 992px) {
+  .imgRight {
+    margin-top: -14rem;
+  }
+
+  .description {
+    width: 70%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -68,6 +87,11 @@
   }
   .imgLeft .description {
     margin-top: 2rem;
+  }
+
+  .textRight,
+  .textLeft {
+    width: 70%;
   }
 }
 

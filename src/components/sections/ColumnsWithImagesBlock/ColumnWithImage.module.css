@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.topImg {
+  margin-top: -7rem;
+}
+
+.bottomImg {
+  padding-top: 10rem;
+}
+.topImg img {
+  order: 0;
+}
+
+.topImg p {
+  order: 2;
+}
+
+@media (max-width: 768px) {
+  .topImg img {
+    order: 0;
+  }
+
+  .bottomImg img {
+    order: 0;
+  }
+
+  .bottomImg {
+    padding-top: 4rem;
+  }
+
+  .bottomImg p {
+    order: 2;
+  }
+
+  .topImg {
+    margin-top: 0;
+  }
+}
