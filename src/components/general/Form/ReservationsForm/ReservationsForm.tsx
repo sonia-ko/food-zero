@@ -1,16 +1,24 @@
 import React from "react";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+
 import classes from "./ReservationsForm.module.css";
+
 import {
   availableHours,
   numberOfPersonsAvailable,
 } from "../../../../static/restaurantData";
+
 import Button from "../../Button/Button";
 import SubmissionConfirmation from "../SuccessMessage/SubmissionConfirmation";
 import Select from "../Select/Select";
 import DatePickerInput from "../DatePicker/DatePicker";
 
+import { setReservations } from "../../../../store/reducers/reservationsSlice";
+
 const ReservationsForm: React.FC = () => {
+  const dispatch = useDispatch();
+
   const [formOpened, setFormOpened] = useState(true);
   const [selectedTime, setSelectedTime] = useState("00:00 am");
   const [selectedNumberGuests, setSelectedNumberGuests] = useState("1 person");
@@ -27,14 +35,26 @@ const ReservationsForm: React.FC = () => {
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    console.log("button clicked");
     event.preventDefault();
     setFormOpened(false);
     console.log({
       time: selectedTime,
       numGuests: selectedNumberGuests,
-      date: reservationDate,
+      date: reservationDate?.toISOString(),
     });
+    console.log(typeof reservationDate);
+    const data = {
+      date: reservationDate?.toISOString(),
+      time: selectedTime,
+      numOfPersons: selectedNumberGuests,
+      additionalInfo: {
+        firstName: "Added",
+        lastName: "Now",
+        email: "john.snow@gmail.com",
+        phone: "+888 888 888",
+      },
+    };
+    dispatch(setReservations(data));
   };
 
   const makeNewReservation = () => {

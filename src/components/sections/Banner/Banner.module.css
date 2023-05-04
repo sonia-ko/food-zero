@@ -12,6 +12,12 @@
   margin-top: 0;
 }
 
+.containerMd {
+  min-height: 35rem;
+  background-position: center;
+  padding-top: 8rem;
+}
+
 .innerContainer {
   display: flex;
   flex-direction: column;

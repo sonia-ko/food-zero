@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b0f139d.css",
-    "main.js": "/static/js/main.b9a06f15.js",
+    "main.css": "/static/css/main.1cd6e7af.css",
+    "main.js": "/static/js/main.a124d936.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/menu-page.png": "/static/media/menu-page.ed3f7cb71c2719d0e70f.png",
     "static/media/cooking.png": "/static/media/cooking.ad82d22c46026a6a360e.png",
@@ -18,6 +18,7 @@
     "static/media/mains.png": "/static/media/mains.023b22918d0eb36bd6eb.png",
     "static/media/starters.png": "/static/media/starters.f4ba84ed4f1417f2fb56.png",
     "static/media/soups.png": "/static/media/soups.dceca673d8b58ab984d7.png",
+    "static/media/dish.png": "/static/media/dish.7f8ca6b5aeedf5c97cd3.png",
     "static/media/about-bg.png": "/static/media/about-bg.1590e68cc35d4a79d210.png",
     "static/media/contacts-bg.png": "/static/media/contacts-bg.3cedaa27f9c3bfe8ba1b.png",
     "static/media/mains-example.png": "/static/media/mains-example.9804d237518c21333846.png",
@@ -42,12 +43,12 @@
     "static/media/julie-christie-photo.png": "/static/media/julie-christie-photo.d07158c834de0fbb0cde.png",
     "static/media/blueberry-bg.png": "/static/media/blueberry-bg.eaa13ebcef4bf43f1407.png",
     "index.html": "/index.html",
-    "main.0b0f139d.css.map": "/static/css/main.0b0f139d.css.map",
-    "main.b9a06f15.js.map": "/static/js/main.b9a06f15.js.map",
+    "main.1cd6e7af.css.map": "/static/css/main.1cd6e7af.css.map",
+    "main.a124d936.js.map": "/static/js/main.a124d936.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b0f139d.css",
-    "static/js/main.b9a06f15.js"
+    "static/css/main.1cd6e7af.css",
+    "static/js/main.a124d936.js"
   ]
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import classes from "./Banner.module.css";
 import OpenHours from "./OpenHours";
+import classes from "./Banner.module.css";
 
 interface BannerProps {
   image: string;
@@ -8,6 +8,7 @@ interface BannerProps {
   description: string;
   showedOpenHours?: boolean;
   textPosition?: "right" | "left";
+  bannerSize?: "md" | "sm";
 }
 
 const Banner: React.FC<BannerProps> = ({
@@ -16,11 +17,14 @@ const Banner: React.FC<BannerProps> = ({
   description,
   showedOpenHours = false,
   textPosition = "left",
+  bannerSize = "md",
 }) => {
   return (
     <section
       style={{ backgroundImage: `url(${image})` }}
-      className={classes.container}
+      className={`${classes.container} ${
+        bannerSize === "sm" ? classes.containerMd : ""
+      }`}
     >
       <div
         className={`${

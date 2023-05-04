@@ -1,0 +1,6 @@
+.container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px dashed #000000;
+}
