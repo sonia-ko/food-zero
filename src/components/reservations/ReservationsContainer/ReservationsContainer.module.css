@@ -2,4 +2,9 @@
   list-style-type: initial;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: decimal;
+  color: red;
 }

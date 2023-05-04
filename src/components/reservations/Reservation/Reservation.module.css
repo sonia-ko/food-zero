@@ -2,5 +2,26 @@
   color: black;
   display: flex;
   flex-direction: column;
-  border-bottom: 4px dashed #000000;
+  margin-bottom: 4rem;
+  list-style-type: initial;
+  width: 40%;
+  border: 2px dashed #233000;
+  padding: 1.7rem;
+}
+
+.date {
+  border-bottom: 2px dashed #233000;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .date {
+    border-bottom: 2px dashed #233000;
+    margin-bottom: 1rem;
+  }
 }

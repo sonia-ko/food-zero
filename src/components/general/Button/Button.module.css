@@ -8,6 +8,15 @@
   font-size: 2rem;
 }
 
+.transparent-bordered {
+  margin: 1rem 0 0;
+  height: 3.5rem;
+  border: 1px solid #233000;
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+  color: #233000;
+}
+
 .white:hover {
   color: #9caa00;
   border: 2px solid #9caa00;

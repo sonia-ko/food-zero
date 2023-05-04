@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cd6e7af.css",
-    "main.js": "/static/js/main.a124d936.js",
+    "main.css": "/static/css/main.f6d7770e.css",
+    "main.js": "/static/js/main.1b77d954.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/menu-page.png": "/static/media/menu-page.ed3f7cb71c2719d0e70f.png",
     "static/media/cooking.png": "/static/media/cooking.ad82d22c46026a6a360e.png",
@@ -43,12 +43,12 @@
     "static/media/julie-christie-photo.png": "/static/media/julie-christie-photo.d07158c834de0fbb0cde.png",
     "static/media/blueberry-bg.png": "/static/media/blueberry-bg.eaa13ebcef4bf43f1407.png",
     "index.html": "/index.html",
-    "main.1cd6e7af.css.map": "/static/css/main.1cd6e7af.css.map",
-    "main.a124d936.js.map": "/static/js/main.a124d936.js.map",
+    "main.f6d7770e.css.map": "/static/css/main.f6d7770e.css.map",
+    "main.1b77d954.js.map": "/static/js/main.1b77d954.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cd6e7af.css",
-    "static/js/main.a124d936.js"
+    "static/css/main.f6d7770e.css",
+    "static/js/main.1b77d954.js"
   ]
 }
